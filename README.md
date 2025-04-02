@@ -24,6 +24,8 @@ If an item is unrecognized, it is flagged as UNKNOWN and will not be taken into 
 
 **How to Use:** 
 
+Find the first line of code. Replace the Dummy data with cleaning example with the path of the actual data file. 
+
 All variables in the file variables.py are labeled and can be adjusted accordingly to suit interests. 
 
 If an item appears as unknown, examine it. It could be an unknown metric, an unrecognized individual food item (pulse is another word for bean), or an unrecognized dish name. 
