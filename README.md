@@ -22,7 +22,7 @@ Garnishes, unless specified otherwise, are always assumed to be 10 grams each.
 If an item is unrecognized, it is flagged as UNKNOWN and will not be taken into account for the quantity distribution x
 
 
-How to Use: 
+**How to Use:** 
 
 All variables in the file variables.py are labeled and can be adjusted accordingly to suit interests. 
 
@@ -35,3 +35,20 @@ If it is an unrecognized name for a food item (we discover Hacha is another word
 If the food item does not have a corresponding clean item name (say tomato was not found in the Bangladesh nutrition chart), then consult the Indian food diary. Follow the same steps as above, and also add the cleaned erosion to ingredient_categories, categorizing it appropriately (protein, nonprotein, garnish or oil)  
 
 If it is an unrecognized dish name, add it to the dish_mappings table, using Google to find the most standard ingredients used in the dish.  
+
+**Cases Will the Program May Not Work**
+
+As of now, despite being popular food items in the dummy data, the Bangladesh food composition table does not contain any items similar to Pickles and Chips, and therefore cannot be cleaned. However, if able to access a different food table and attain a cleaned version from there, then fixing this is as simple as the process described in the section above. 
+
+As of now, the program will never work on lines where the () are not closed and the commas are not placed properly. For example, Fish Curry (tomato, raddish, black chili, cucumber, oil, Cucurbit(2 pcs) Water (1 glass) is unable to be cleaned properly because the () for fish curry are never closed and there are no commas seperating cucurbit and water. This is because there is no pattern to determine where exactly the person met to place the closing ) or even the commas. In this case it may seem fairly obvious, but if a person were to list something like potato stew, potato and stew would not be seperated. The comma and ) could hypothetically be after any of the food items. However, these lines can be fixed rather easily by a human who can immediately identify the most likely place to put the ). The hope is that there are very few of these mistakes so that it would only take a few minutes at most to fix the lines that do have this problem. 
+
+**Possible Other Features If Desired**
+
+If desired, other possible features that could be implemented in the future include:
+
+Each cleaned food item is assumed to have at least X amount of grams, even if the given portions suggest otherwise. 
+
+For example, if a child wrote potato, onion, spinach, carrot, eggplant and 1 pcs in the quantity column, it is assumed each of these vegetables was 10 grams. (50/5). If a person would like to assume that each food item a child wrote was at least 15 grams, this could be done through a few more lines of code. 
+
+
+
