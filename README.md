@@ -32,7 +32,7 @@ If an item appears as unknown, examine it. It could be an unknown metric, an unr
 
 If it is an unknown metric, add it to the baseWeights map. 
 
-If it is an unrecognized name for a food item (we discover Hacha is another word for tomato that the Bangladesh use) then Owe find the cleaned version of tomato in either meat_mappings or ingredient_categories. On the left, write the new name for the food item (in this case Hacha). On the right, put the cleaned name for the food (in this case "Tomato, red, ripe, boiled* (without salt)"). This will allow all instances of Hacha to be cleaned appropriately. 
+If it is an unrecognized name for a food item (we discover Hacha is another word for tomato that the Bangladesh use) then we find the cleaned version of tomato in either meat_mappings or ingredient_categories. On the left, write the new name for the food item (in this case Hacha). On the right, put the cleaned name for the food (in this case "Tomato, red, ripe, boiled* (without salt)"). This will allow all instances of Hacha to be cleaned appropriately. 
 
 If the food item does not have a corresponding clean item name (say tomato was not found in the Bangladesh nutrition chart), then consult the Indian food diary. Follow the same steps as above, and also add the cleaned erosion to ingredient_categories, categorizing it appropriately (protein, nonprotein, garnish or oil)  
 
