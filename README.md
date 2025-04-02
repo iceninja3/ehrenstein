@@ -38,7 +38,7 @@ If the food item does not have a corresponding clean item name (say tomato was n
 
 If it is an unrecognized dish name, add it to the dish_mappings table, using Google to find the most standard ingredients used in the dish.  
 
-**Cases Will the Program May Not Work**
+**Cases Where the Program May Not Work**
 
 As of now, despite being popular food items in the dummy data, the Bangladesh food composition table does not contain any items similar to Pickles and Chips, and therefore cannot be cleaned. However, if able to access a different food table and attain a cleaned version from there, then fixing this is as simple as the process described in the section above. 
 
