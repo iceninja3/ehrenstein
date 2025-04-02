@@ -42,6 +42,11 @@ As of now, despite being popular food items in the dummy data, the Bangladesh fo
 
 As of now, the program will never work on lines where the () are not closed and the commas are not placed properly. For example, Fish Curry (tomato, raddish, black chili, cucumber, oil, Cucurbit(2 pcs) Water (1 glass) is unable to be cleaned properly because the () for fish curry are never closed and there are no commas seperating cucurbit and water. This is because there is no pattern to determine where exactly the person met to place the closing ) or even the commas. In this case it may seem fairly obvious, but if a person were to list something like potato stew, potato and stew would not be seperated. The comma and ) could hypothetically be after any of the food items. However, these lines can be fixed rather easily by a human who can immediately identify the most likely place to put the ). The hope is that there are very few of these mistakes so that it would only take a few minutes at most to fix the lines that do have this problem. 
 
+**Misc Features** 
+
+The program currently accounts for spelling errors. 
+The program does not account for adjectives. This is because ingredients may vary depending on size, so it makes more sense to simply add a new dish to the list instead. (Small fish curry will not be recognized as fish curry) 
+
 **Possible Other Features If Desired**
 
 If desired, other possible features that could be implemented in the future include:
