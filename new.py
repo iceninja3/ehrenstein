@@ -1,9 +1,3 @@
-#pickle and chips will be found in india food table (note: for now unknown items will be marked as suhc )
-#weighting might need to be fixed?
-# optional: consider adding minimum quantity for each item (nonproteins could always be at least X amount of grams
-#proteins coudl always be at least Y amount of grams )
-#fish curry 
-#fish fry
 import pandas as pd
 import openpyxl
 import re
@@ -25,22 +19,8 @@ from variables import (
 
 
 # ✅ Load food diary dataset
-dummy_data_path = "jar.xlsx"
+dummy_data_path = "Dummy data with cleaning example.xlsx"
 df_dummy = pd.read_excel(dummy_data_path, sheet_name="Tabelle1")
-
-# ✅ Load Bangladesh Food Composition Table
-nutrition_table_path = "Bangladesh Food Composition PDF to Excel.xlsx"
-df_nutrition = pd.read_excel(nutrition_table_path, sheet_name="Table 1")
-
-# ✅ Extract actual food data from nutrition table
-for idx, row in df_nutrition.iterrows():
-    if "Rice" in str(row.values):
-        food_data_start_idx = idx
-        break
-df_food_composition = df_nutrition.iloc[food_data_start_idx:].reset_index(drop=True)
-df_food_composition = df_food_composition.rename(columns={df_food_composition.columns[0]: "Food_Item"})
-df_food_composition = df_food_composition[["Food_Item"]].dropna()
-df_food_composition["Food_Item"] = df_food_composition["Food_Item"].str.strip().replace("\n", " ", regex=True)
 
 # ✅ Fuzzy Matching Function
 def fuzzy_match(item, mapping_dict):
@@ -128,7 +108,7 @@ def clean_food_entry(original_entry, quantity_text=None):
             inside_items = [i.strip() for i in inside.split(",") if i.strip()]
 
             # Dish-based logic
-            matched_dish = next((dish for dish in dish_mappings if dish in base), None)
+            matched_dish = next((dish for dish in dish_mappings if dish.lower() == base.lower()), None)
             if matched_dish:
                 if len(inside_items) < NUM_ITEMS_NECESSARY_TO_EXPAND:
                     return ", ".join(dish_mappings[matched_dish])
@@ -239,20 +219,11 @@ def clean_food_entry(original_entry, quantity_text=None):
 
     return "; ".join(cleaned_items), "; ".join(raw_cooked_items)
 
-
-
-
 # ✅ Apply cleaning
 df_cleaned = df_dummy.copy()
 df_cleaned[["Description of the food_ CLEAN", "raw_cooked"]] = df_cleaned.apply(
     lambda row: pd.Series(clean_food_entry(row["Description of the food_ORIGINAL"], row.get("Quantity_ORIGINAL"))), axis=1
 )
-
 # ✅ Save output
 df_cleaned.to_excel("Cleaned_Food_Diary.xlsx", index=False)
 print("\u2705 Cleaning complete. Check 'Cleaned_Food_Diary.xlsx'")
-print(clean_food_entry("small chicken curry"))
-print(clean_food_entry("small fish curry"))
-#print(clean_food_entry("biscuit (half bowl)"))
-# print(clean_food_entry("biscuit (half bowl, 11.5cm)"))
-# print(clean_food_entry("fish curry"))

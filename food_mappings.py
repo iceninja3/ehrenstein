@@ -200,6 +200,7 @@ food_mappings = {
     "mace": "Mace, ground",
     "nutmeg": "Nutmeg, dried",
     "black pepper": "Pepper, black",
+    "black chilli": "Pepper, black",
     "pepper": "Pepper, black",
     "poppy seeds": "Poppy seeds",
     "spearmint leaves": "Spearmint leaves, fresh",
