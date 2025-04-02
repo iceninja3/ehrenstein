@@ -36,31 +36,34 @@ def fuzzy_match(item, mapping_dict):
    return None
 
 def extract_quantity(text):
-   match = re.search("\((.*?)\)", text.lower())
-   if not match:
-       return None, None, None
-   quantityString = match.group(1).strip()
-   
-   
-   if "half" in quantityString:
-        for unit in baseWeights:
-            if unit in quantityString:
-                return 0.5 * baseWeights[unit], unit, quantityString
-   if "quarter" in quantityString:
-        for unit in baseWeights:
-            if unit in quantityString:
-                return 0.25 * baseWeights[unit], unit, quantityString
+    match = re.search(r"\((.*?)\)", text.lower())
+    if not match:
+        return None, None, None
 
-   match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(\w+)", quantityString)
-   if match:
-       numString, unit = match.groups()
-       if "/" in numString:
-           num = eval(numString)
-       else:
-           num = float(numString)
-       if unit in baseWeights:
-            return num * baseWeights[unit], unit, quantityString
-   return None, None, quantityString
+    quantity_string = match.group(1).strip()
+    parts = [p.strip() for p in quantity_string.split(",")]
+
+    for part in parts:
+        # Check for "half" or "quarter" first
+        if "half" in part:
+            for unit in baseWeights:
+                if unit in part:
+                    return 0.5 * baseWeights[unit], unit, quantity_string
+        if "quarter" in part:
+            for unit in baseWeights:
+                if unit in part:
+                    return 0.25 * baseWeights[unit], unit, quantity_string
+
+        # Match numerical quantity (e.g., 1 pcs, 2.5 bowl, 3/4 plate)
+        match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(\w+)", part)
+        if match:
+            num_str, unit = match.groups()
+            num = eval(num_str) if "/" in num_str else float(num_str)
+            if unit in baseWeights:
+                return num * baseWeights[unit], unit, quantity_string
+
+    return None, None, quantity_string
+
 
 # ✅ Quantity Column Parser
 def parse_quantity_column(text):
@@ -147,7 +150,8 @@ def clean_food_entry(original_entry, quantity_text=None):
     original_entry = expand_parentheticals(original_entry)
 
     # Step 2: Split and clean individual food items
-    food_items = re.split(r"\swith\s|\sand\s|,", original_entry)
+    food_items = re.split(r"\swith\s|\sand\s|,(?![^()]*\))", original_entry)
+
     cleaned_items = []
     raw_cooked_items = []
     temp_storage = []

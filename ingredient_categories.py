@@ -80,6 +80,23 @@ ingredient_categories = {
     "Minnow, Finescale razorbelly, raw": "protein",
     "Minnow, Finescale razorbelly, dried": "protein",
     "Pangas, without bones, raw": "protein",
+    "Minnow, Large scale razorbelly, raw": "protein",
+    "Mola carplet, whole, eyes included, raw": "protein",
+    "Mrigal carp, eyes included, raw": "protein",
+    "Mullet, Gold spot, raw": "protein",
+    "Mussel/Clam, mixed species, raw": "protein",
+    "Pangas, without bones, raw": "protein",
+    "Perch, Mud, raw": "protein",
+    "Pomfret, Black, raw": "protein",
+    "Pomfret, Chinese Silver, raw": "protein",
+    "Pomfret, Silver, dried": "protein",
+    "Pomfret, Silver, without bones, raw": "protein",
+    "Prawn, Birma river prawn, raw": "protein",
+    "Prawn, Giant river prawn, raw": "protein",
+    "Prawn, Giant tiger prawn, raw": "protein",
+    "Prawn, Hairy river prawn, raw": "protein",
+    "Prawn, Indian white prawn, raw": "protein",
+
 
     # 🍗 Protein
     "Chanda, Indian glaasy fish, eyes included, raw": "protein",
