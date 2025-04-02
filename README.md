@@ -44,7 +44,7 @@ As of now, the program will never work on lines where the () are not closed and 
 
 **Misc Features** 
 
-The program currently accounts for spelling errors. 
+The program currently accounts for spelling errors in food items.  
 The program does not account for adjectives. This is because ingredients may vary depending on size, so it makes more sense to simply add a new dish to the list instead. (Small fish curry will not be recognized as fish curry) 
 
 **Possible Other Features If Desired**
@@ -54,6 +54,4 @@ If desired, other possible features that could be implemented in the future incl
 Each cleaned food item is assumed to have at least X amount of grams, even if the given portions suggest otherwise. 
 
 For example, if a child wrote potato, onion, spinach, carrot, eggplant and 1 pcs in the quantity column, it is assumed each of these vegetables was 10 grams. (50/5). If a person would like to assume that each food item a child wrote was at least 15 grams, this could be done through a few more lines of code. 
-
-
 
