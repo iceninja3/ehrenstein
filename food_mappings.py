@@ -1,6 +1,7 @@
 food_mappings = {
     # General Rice Terms
     "rice": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
+    "rice powder": "Rice, BR-28, boiled* (without salt)",
     "boiled rice": "Rice, BR-28, boiled* (without salt)",
     "parboiled rice": "Rice, BR-28, parboiled, milled, raw",
     "white rice": "Rice, white, sunned, polished, milled, boiled* (without salt)",
@@ -48,6 +49,7 @@ food_mappings = {
     "vermicelli": "Vermicelli, boiled* (without salt)",
     "noodles": "Vermicelli, boiled* (without salt)",
     "ruti": "Ruti*",
+    "puri": "Ruti*",
     "gourd": "Gourd, bitter, boiled* (without salt)",  # Override raw gourds with best cooked option
     "ash gourd": "Gourd, ash, raw",
     "winter melon": "Gourd, ash, raw",
@@ -129,6 +131,7 @@ food_mappings = {
     "indian spinach": "Indian spinach, boiled* (without salt)",
     "jute leaves": "Jute leaves, raw",
     "pumpkin leaves": "Pumpkin leaves, raw",
+    "pumpkin flower": "Pumpkin leaves, raw",
     "radish leaves": "Radish leaves, raw",
     "slender amaranth leaves": "Slender amaranth leaves, boiled* (without salt)",
     "spinach": "Spinach, boiled* (without salt)",
@@ -284,6 +287,7 @@ food_mappings = {
     # Duck Eggs
     "duck egg": "Egg, duck, whole, boiled* (without salt)",
     "boiled duck egg": "Egg, duck, whole, boiled* (without salt)",
+    "salt": "Salt",
     # Butter & Ghee
     "butter": "Butter, salted",
     "salted butter": "Butter, salted",

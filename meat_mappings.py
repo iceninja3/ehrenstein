@@ -400,7 +400,6 @@ fish_meat_table = {
     "mutton liver": "Lamb/Mutton, liver, raw",
     "raw lamb liver": "Lamb/Mutton, liver, raw",
     "raw mutton liver": "Lamb/Mutton, liver, raw",
-
     "pigeon meat": "Pigeon meat, raw",
     "raw pigeon meat": "Pigeon meat, raw",
     "pigeon": "Pigeon meat, raw",

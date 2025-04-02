@@ -1,4 +1,7 @@
 baseWeights = {
+    "lunch": 100,
+    "dinner": 500,
+    "breakfast": 450,
     "plate": 300,
     "bowl": 400,
     "spoon": 100,

@@ -275,6 +275,7 @@ ingredient_categories = {
     "Turmeric, dried": "garnish",
     "Lemon, Kagoji, raw": "garnish",
     "Lime, sweet, raw": "garnish",
+    "salt": "garnish",
 
 
     # 🥬 Nonprotein
