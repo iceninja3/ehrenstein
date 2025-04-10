@@ -125,6 +125,9 @@ fish_meat_table = {
     "dried giant sea perch": "Giant sea perch, whole, dried",
     "boneless giant sea perch": "Giant sea perch, without bones, raw",
 
+
+    "goby": "Goby, Tank goby, raw",
+    "chewa fish": "Goby, Tank goby, raw",
     "goby": "Goby, Tank goby, raw",
     "tank goby": "Goby, Tank goby, raw",
     "raw goby": "Goby, Tank goby, raw",
@@ -135,6 +138,7 @@ fish_meat_table = {
     "raw gourami": "Gourami, Banded gourami, eyes included, raw",
     "raw banded gourami": "Gourami, Banded gourami, eyes included, raw",
 
+    "shoreshe hilsha": "Hilsha, without bones, raw",
     "hilsha": "Hilsha, without bones, raw",
     "raw hilsha": "Hilsha, without bones, raw",
     "boneless hilsha": "Hilsha, without bones, raw",
@@ -228,6 +232,9 @@ fish_meat_table = {
     "raw clam": "Mussel/Clam, mixed species, raw",
     "oyster": "Mussel/Clam, mixed species, raw",
     "fish": "Pangas, without bones, raw",
+    "small fish": "Pangas, without bones, raw",
+    "big fish": "Pangas, without bones, raw",
+    "medium fish": "Pangas, without bones, raw",
     "pangas": "Pangas, without bones, raw",
     "boneless pangas": "Pangas, without bones, raw",
     "raw pangas": "Pangas, without bones, raw",
@@ -278,6 +285,7 @@ fish_meat_table = {
     "raw monsoon river prawn": "Prawn, Monsoon river prawn, raw",
 
     "rohu": "Rohu, river, raw",
+    "rui": "Rohu, river, raw",
     "river rohu": "Rohu, river, raw",
     "raw rohu": "Rohu, river, raw",
     "raw river rohu": "Rohu, river, raw",
@@ -332,6 +340,7 @@ fish_meat_table = {
 
     "beef liver": "Beef liver, raw",
     "raw beef liver": "Beef liver, raw",
+     "meat": "Beef, meat, lean, boneless, raw",
 
     "beef": "Beef, meat, lean, boneless, raw",
     "lean beef": "Beef, meat, lean, boneless, raw",

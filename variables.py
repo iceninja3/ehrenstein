@@ -16,3 +16,6 @@ FUZZY_MATCH_THRESHOLD = 80
 
 #this is at least the number of items that must be in a dish's () for it to not use the default version 
 NUM_ITEMS_NECESSARY_TO_EXPAND = 2
+
+#name of file in which the data shall be processed 
+FILE_NAME = "Bangladesh_DummyData.xlsx"

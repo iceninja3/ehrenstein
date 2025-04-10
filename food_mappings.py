@@ -1,12 +1,14 @@
 food_mappings = {
     # General Rice Terms
     "rice": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
+    "panta": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "rice powder": "Rice, BR-28, boiled* (without salt)",
     "boiled rice": "Rice, BR-28, boiled* (without salt)",
     "parboiled rice": "Rice, BR-28, parboiled, milled, raw",
     "white rice": "Rice, white, sunned, polished, milled, boiled* (without salt)",
     "brown rice": "Rice, brown, parboiled, milled, boiled* (without salt)",
     "puffed rice": "Rice, puffed, salted",
+    "jhal": "Rice, puffed, salted",
     "rice puffs": "Rice, puffed, salted",
     "popped rice": "Rice, popped",
     "Rice pops": "Rice, popped",
@@ -42,6 +44,7 @@ food_mappings = {
     # Wheat and Flour
     "wheat": "Wheat, whole, raw",
     "wheat flour": "Wheat, flour, white",
+    "rice flour": "Wheat, flour, white",
     "white wheat flour": "Wheat flour, white, refined",
     "whole wheat flour": "Wheat flour, brown, whole grain, raw",
     "whole wheat": "Wheat, whole, raw",
@@ -128,6 +131,8 @@ food_mappings = {
     "drumstick leaves": "Drumstick, leaves, raw",
     "fern leaves": "Fern, leaves, raw",
     "fenugreek leaves": "Fenugreek, leaves, raw",
+
+    "malaber spinach": "Indian spinach, boiled* (without salt)",
     "indian spinach": "Indian spinach, boiled* (without salt)",
     "jute leaves": "Jute leaves, raw",
     "pumpkin leaves": "Pumpkin leaves, raw",
@@ -135,11 +140,13 @@ food_mappings = {
     "radish leaves": "Radish leaves, raw",
     "slender amaranth leaves": "Slender amaranth leaves, boiled* (without salt)",
     "spinach": "Spinach, boiled* (without salt)",
+    "water spinach": "Spinach, boiled* (without salt)",
     "sweet potato leaves": "Sweet potato leaves, raw",
     "dark green sweet potato leaves": "Sweet potato leaves, SP4, dark green, mature, raw",
     "light green sweet potato leaves": "Sweet potato leaves, SP8, light green, mature, raw",
     "colocasia": "Colocasia/Taro, boiled* (without salt)",
     "taro": "Colocasia/Taro, boiled* (without salt)",
+    "taro root": "Colocasia/Taro, boiled* (without salt)",
     "elephant foot": "Elephant foot, corm, boiled* (without salt)",
     "giant taro": "Giant taro, corm, boiled* (without salt)",
     "potato": "Potato, Diamond, boiled* (without salt)",
@@ -166,6 +173,7 @@ food_mappings = {
     "jackfruit seeds": "Jackfruit seeds, raw",
     "linseed": "Linseed, raw",
     "lotus seeds": "Lotus seeds, dried",
+    "water lily": "Lotus seeds, dried",
     "green lotus seeds": "Lotus seeds, green",
     "mustard seeds": "Mustard seeds, dried",
     "pistachio": "Pistachio nuts, dried",
@@ -177,6 +185,7 @@ food_mappings = {
     "bay leaves": "Bay leaf, dried",
     "cardamom": "Cardamom",
     "chilli": "Chilli, red, dry",
+    "chilli powder": "Chilli, red, dry",
     "green chilli": "Chilli, green, with seeds, raw",
     "red chilli": "Chilli, red, dry",
     "dried chilli": "Chilli, red, dry",
@@ -206,6 +215,7 @@ food_mappings = {
     "spearmint leaves": "Spearmint leaves, fresh",
     "spearmint": "Spearmint leaves, fresh",
     "turmeric": "Turmeric, dried",
+    "turmeric powder": "Turmeric, dried",
     "termaric": "Turmeric, dried",
     # Fruits
     "apple": "Apple, with skin, raw",
@@ -327,6 +337,7 @@ food_mappings = {
     "red betel leaves": "Betel leaves",
     "honey": "Honey",
     "sugar": "Sugar, white",
+    "sweet": "Sugar, white",
     "white sugar": "Sugar, white",
     "jaggery": "Jaggery, sugarcane, solid",
     "sugarcane": "Jaggery, sugarcane, solid",

@@ -1,5 +1,4 @@
 import pandas as pd
-import openpyxl
 import re
 from food_mappings import food_mappings
 from meat_mappings import fish_meat_table
@@ -15,72 +14,77 @@ from variables import (
     DEFAULT_GARNISH_WEIGHT,
     FUZZY_MATCH_THRESHOLD,
     NUM_ITEMS_NECESSARY_TO_EXPAND,
+    FILE_NAME,
 )
 
 
-# ✅ Load food diary dataset
-dummy_data_path = "Dummy data with cleaning example.xlsx"
-df_dummy = pd.read_excel(dummy_data_path, sheet_name="Tabelle1")
+def fuzzy_match(item, mapping_dict):
+    item = item.strip()
+    filtered_keys = [word for word in mapping_dict if abs(len(word) - len(item)) <= 2]
+    if filtered_keys:
+        bestMatch, score = process.extractOne(item, filtered_keys)
+        if score >= FUZZY_MATCH_THRESHOLD:
+            return mapping_dict[bestMatch]
+    return None
 
-# ✅ Fuzzy Matching Function
-def fuzzy_match(item, mapping_dict): #takes a food item (chicken, rice etc.) and a mapping dictionary 
-   item = item.strip() 
-   filtered_keys = []
-   for word in mapping_dict.keys():
-       if(abs(len(word)-len(item) ) <= 2):
-           filtered_keys.append(word)
-   if filtered_keys:
-       bestMatch, score = process.extractOne(item, filtered_keys) #returns closest match between item and the keys, and a confidence score
-       
-       if score >= FUZZY_MATCH_THRESHOLD:
-           return mapping_dict[bestMatch] #If confidence score is high, returns the value the bestMatch maps to
-   return None
+def fuzzy_match_key(item, mapping_dict):
+    item = item.strip()
+    filtered_keys = [word for word in mapping_dict if abs(len(word) - len(item)) <= 2]
+    if filtered_keys:
+        bestMatch, score = process.extractOne(item, filtered_keys)
+        if score >= FUZZY_MATCH_THRESHOLD:
+            return bestMatch
+    return None
 
 def extract_quantity(text):
-    match = re.search(r"\((.*?)\)", text.lower())
+    match = re.search(r"\((.*?)\)", str(text).lower())
     if not match:
         return None, None, None
-
+    
     quantity_string = match.group(1).strip()
+    
     parts = [p.strip() for p in quantity_string.split(",")]
-
     for part in parts:
-        # Check for "half" or "quarter" first
+        lowered = part.lower()
+        if lowered in baseWeights:
+            return baseWeights[lowered], lowered, quantity_string
+        
         if "half" in part:
             for unit in baseWeights:
                 if unit in part:
                     return 0.5 * baseWeights[unit], unit, quantity_string
+                
         if "quarter" in part:
             for unit in baseWeights:
                 if unit in part:
                     return 0.25 * baseWeights[unit], unit, quantity_string
-
-        # Match numerical quantity (e.g., 1 pcs, 2.5 bowl, 3/4 plate)
         match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(\w+)", part)
         if match:
             num_str, unit = match.groups()
             num = eval(num_str) if "/" in num_str else float(num_str)
             if unit in baseWeights:
                 return num * baseWeights[unit], unit, quantity_string
-
     return None, None, quantity_string
 
-
-# ✅ Quantity Column Parser
 def parse_quantity_column(text):
     if not isinstance(text, str):
-        return  DEFAULT_TOTAL_WEIGHT
+        return DEFAULT_TOTAL_WEIGHT
     total = 0
     text = text.lower().replace("halfbowl", "half bowl")
     parts = text.split(",")
     for part in parts:
         part = part.strip()
+        lowered = part.lower()
+
+        # Handle special named units like "all time"
+
+        
         if "half" in part:
             for unit in baseWeights:
                 if unit in part:
                     total += 0.5 * baseWeights[unit]
                     break
-        if "quarter" in part:
+        elif "quarter" in part:
             for unit in baseWeights:
                 if unit in part:
                     total += 0.25 * baseWeights[unit]
@@ -94,7 +98,6 @@ def parse_quantity_column(text):
                     total += num * baseWeights[unit]
     return total if total > 0 else DEFAULT_TOTAL_WEIGHT
 
-# ✅ Cleaning Function with Enhanced Dish-Based Parenthetical Expansion
 def clean_food_entry(original_entry, quantity_text=None):
     if pd.isna(original_entry):
         return "", ""
@@ -102,13 +105,12 @@ def clean_food_entry(original_entry, quantity_text=None):
     entry_lower = original_entry.strip().lower()
 
     # Step 1: Expand parentheticals with dish logic
-    def expand_parentheticals(entry): #handles our () contents
-        pattern = re.compile(r"([\w\s]+?)\s*\(([^)]+)\)") #splits contents into what is in the () and what is outside them 
+    def expand_parentheticals(entry):  # handles our () contents
+        pattern = re.compile(r"([\w\s]+?)\s*\(([^)]+)\)")  # splits contents into what is in the () and what is outside them 
 
         def replace_fn(match):
             base = match.group(1).strip().lower()
             inside = match.group(2).strip().lower()
-            #inside_items = [i.strip() for i in inside.split(",") if i.strip()]
             itemsList = inside.split(",")
             inside_items = []
             for item in itemsList:
@@ -118,24 +120,27 @@ def clean_food_entry(original_entry, quantity_text=None):
 
             # Dish-based logic
             matched_dish = next((dish for dish in dish_mappings if dish.lower() == base.lower()), None)
+            
+            if not matched_dish:
+                matched_dish = fuzzy_match_key(base, dish_mappings)
+
             if matched_dish:
                 if len(inside_items) < NUM_ITEMS_NECESSARY_TO_EXPAND:
                     return ", ".join(dish_mappings[matched_dish])
 
-                # Find main protein
-                main_protein = (
-                    food_mappings.get(base)
-                    or fish_meat_table.get(base)
-                    or next((ing for ing in dish_mappings[matched_dish] if ing in fish_meat_table or ing in food_mappings), None)
+                
+                matched_ingredient = next(
+                    (ing for ing in list(food_mappings) + list(fish_meat_table)
+                     if ing in base and ing not in inside_items),
+                    None
                 )
 
                 seen = set()
                 combined = []
 
-                # Start with main protein (if available)
-                if main_protein:
-                    combined.append(main_protein)
-                    seen.add(main_protein)
+                if matched_ingredient:
+                    combined.append(matched_ingredient)
+                    seen.add(matched_ingredient)
 
                 for item in inside_items:
                     if item not in seen:
@@ -166,10 +171,12 @@ def clean_food_entry(original_entry, quantity_text=None):
     while i < len(food_items):
         item = food_items[i].strip().lower()
         base_item = re.sub(r"\s*\(.*?\)", "", item).strip()
+        matched_dish = dish_mappings.get(base_item)
+        if not matched_dish:
+            matched_dish = dish_mappings.get(fuzzy_match_key(base_item, dish_mappings))
 
-        if base_item in dish_mappings:
-            expanded_items = dish_mappings[base_item]
-            food_items[i:i+1] = expanded_items  # replace in place
+        if matched_dish:
+            food_items[i:i+1] = matched_dish  # replace in place
             continue  # re-check current index
         else:
             weight, unit, quantity_str = extract_quantity(item)
@@ -229,11 +236,31 @@ def clean_food_entry(original_entry, quantity_text=None):
 
     return "; ".join(cleaned_items), "; ".join(raw_cooked_items)
 
-# ✅ Apply cleaning
-df_cleaned = df_dummy.copy()
-df_cleaned[["Description of the food_ CLEAN", "raw_cooked"]] = df_cleaned.apply(
-    lambda row: pd.Series(clean_food_entry(row["Description of the food_ORIGINAL"], row.get("Quantity_ORIGINAL"))), axis=1
-)
-# ✅ Save output
-df_cleaned.to_excel("Cleaned_Food_Diary.xlsx", index=False)
-print("\u2705 Cleaning complete. Check 'Cleaned_Food_Diary.xlsx'")
+
+
+if __name__ == "__main__":
+    input_file = FILE_NAME
+    df = pd.read_excel(input_file, sheet_name="Tabelle1", header=1)
+    
+    description_cols = []
+    quantity_cols = []
+    for i, col in enumerate(df.columns):
+        if isinstance(col, str) and "description of the food" in col.lower():
+            description_cols.append(col)
+            quantity_cols.append(df.columns[i + 1] if i + 1 < len(df.columns) else None)
+
+    for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
+        new_clean_col = f"{desc_col}_CLEAN"
+        new_raw_col = f"raw_cooked_{i+1}"
+
+        cleaned_data = df.apply(
+            lambda row: pd.Series(clean_food_entry(row[desc_col], row.get(quant_col))), axis=1
+        )
+        cleaned_data.columns = [new_clean_col, new_raw_col]
+
+        quant_index = df.columns.get_loc(quant_col)
+        for col_name in reversed(cleaned_data.columns): 
+            df.insert(quant_index + 1, col_name, cleaned_data[col_name])
+    
+    df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
+    print("✅ Cleaning complete.")
