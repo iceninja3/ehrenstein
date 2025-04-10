@@ -69,34 +69,46 @@ def extract_quantity(text):
 def parse_quantity_column(text):
     if not isinstance(text, str):
         return DEFAULT_TOTAL_WEIGHT
+
     total = 0
     text = text.lower().replace("halfbowl", "half bowl")
     parts = text.split(",")
+
     for part in parts:
         part = part.strip()
         lowered = part.lower()
 
-        # Handle special named units like "all time"
+        
+        if lowered in baseWeights:
+            total += baseWeights[lowered]
+            continue  
 
         
-        if "half" in part:
+        if "half" in lowered:
             for unit in baseWeights:
-                if unit in part:
+                if unit in lowered:
                     total += 0.5 * baseWeights[unit]
                     break
-        elif "quarter" in part:
+
+        
+        elif "quarter" in lowered:
             for unit in baseWeights:
-                if unit in part:
+                if unit in lowered:
                     total += 0.25 * baseWeights[unit]
                     break
+
+        
         else:
-            match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(\w+)", part)
+            match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(.+)", lowered)
             if match:
                 num_str, unit = match.groups()
                 num = eval(num_str) if "/" in num_str else float(num_str)
+                unit = unit.strip()
                 if unit in baseWeights:
                     total += num * baseWeights[unit]
+
     return total if total > 0 else DEFAULT_TOTAL_WEIGHT
+
 
 def clean_food_entry(original_entry, quantity_text=None):
     if pd.isna(original_entry):
@@ -237,30 +249,28 @@ def clean_food_entry(original_entry, quantity_text=None):
     return "; ".join(cleaned_items), "; ".join(raw_cooked_items)
 
 
+input_file = FILE_NAME
+df = pd.read_excel(input_file, sheet_name="Tabelle1", header=1)
 
-if __name__ == "__main__":
-    input_file = FILE_NAME
-    df = pd.read_excel(input_file, sheet_name="Tabelle1", header=1)
-    
-    description_cols = []
-    quantity_cols = []
-    for i, col in enumerate(df.columns):
-        if isinstance(col, str) and "description of the food" in col.lower():
-            description_cols.append(col)
-            quantity_cols.append(df.columns[i + 1] if i + 1 < len(df.columns) else None)
+description_cols = []
+quantity_cols = []
+for i, col in enumerate(df.columns):
+    if isinstance(col, str) and "description of the food" in col.lower():
+        description_cols.append(col)
+        quantity_cols.append(df.columns[i + 1] if i + 1 < len(df.columns) else None)
 
-    for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
-        new_clean_col = f"{desc_col}_CLEAN"
-        new_raw_col = f"raw_cooked_{i+1}"
+for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
+    new_clean_col = f"{desc_col}_CLEAN"
+    new_raw_col = f"raw_cooked_{i+1}"
 
-        cleaned_data = df.apply(
-            lambda row: pd.Series(clean_food_entry(row[desc_col], row.get(quant_col))), axis=1
-        )
-        cleaned_data.columns = [new_clean_col, new_raw_col]
+    cleaned_data = df.apply(
+        lambda row: pd.Series(clean_food_entry(row[desc_col], row.get(quant_col))), axis=1
+    )
+    cleaned_data.columns = [new_clean_col, new_raw_col]
 
-        quant_index = df.columns.get_loc(quant_col)
-        for col_name in reversed(cleaned_data.columns): 
-            df.insert(quant_index + 1, col_name, cleaned_data[col_name])
-    
-    df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
-    print("✅ Cleaning complete.")
+    quant_index = df.columns.get_loc(quant_col)
+    for col_name in reversed(cleaned_data.columns): 
+        df.insert(quant_index + 1, col_name, cleaned_data[col_name])
+
+df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
+print("✅ Cleaning complete.")

@@ -11,6 +11,7 @@ baseWeights = {
     "glass": 250,
     "cup": 200, 
     "pcs": 50, 
+    "small pcs": 40, 
     "bottle": 300,
     "cm": 30, 
     "ml": 1, 

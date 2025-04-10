@@ -69,7 +69,7 @@ def extract_quantity(text):
 # ✅ Quantity Column Parser
 def parse_quantity_column(text):
     if not isinstance(text, str):
-        return  DEFAULT_TOTAL_WEIGHT
+        return DEFAULT_TOTAL_WEIGHT
     total = 0
     text = text.lower().replace("halfbowl", "half bowl")
     parts = text.split(",")
@@ -80,19 +80,21 @@ def parse_quantity_column(text):
                 if unit in part:
                     total += 0.5 * baseWeights[unit]
                     break
-        if "quarter" in part:
+        elif "quarter" in part:
             for unit in baseWeights:
                 if unit in part:
                     total += 0.25 * baseWeights[unit]
                     break
         else:
-            match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(\w+)", part)
+            match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(.+)", part)
             if match:
                 num_str, unit = match.groups()
                 num = eval(num_str) if "/" in num_str else float(num_str)
+                unit = unit.strip()
                 if unit in baseWeights:
                     total += num * baseWeights[unit]
     return total if total > 0 else DEFAULT_TOTAL_WEIGHT
+
 
 # ✅ Cleaning Function with Enhanced Dish-Based Parenthetical Expansion
 def clean_food_entry(original_entry, quantity_text=None):
