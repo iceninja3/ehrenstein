@@ -24,23 +24,26 @@ If an item is unrecognized, it is flagged as UNKNOWN and will not be taken into 
 
 **How to Use:** 
 
+Find the first line of code. Replace the Dummy data with cleaning example with the path of the actual data file. 
+
 All variables in the file variables.py are labeled and can be adjusted accordingly to suit interests. 
 
 If an item appears as unknown, examine it. It could be an unknown metric, an unrecognized individual food item (pulse is another word for bean), or an unrecognized dish name. 
 
 If it is an unknown metric, add it to the baseWeights map. 
 
-If it is an unrecognized name for a food item (we discover Hacha is another word for tomato that the Bangladesh use) then Owe find the cleaned version of tomato in either meat_mappings or ingredient_categories. On the left, write the new name for the food item (in this case Hacha). On the right, put the cleaned name for the food (in this case "Tomato, red, ripe, boiled* (without salt)"). This will allow all instances of Hacha to be cleaned appropriately. 
+If it is an unrecognized name for a food item (we discover Hacha is another word for tomato that the Bangladesh use) then we find the cleaned version of tomato in either meat_mappings or ingredient_categories. On the left, write the new name for the food item (in this case Hacha). On the right, put the cleaned name for the food (in this case "Tomato, red, ripe, boiled* (without salt)"). This will allow all instances of Hacha to be cleaned appropriately. 
 
 If the food item does not have a corresponding clean item name (say tomato was not found in the Bangladesh nutrition chart), then consult the Indian food diary. Follow the same steps as above, and also add the cleaned erosion to ingredient_categories, categorizing it appropriately (protein, nonprotein, garnish or oil)  
 
 If it is an unrecognized dish name, add it to the dish_mappings table, using Google to find the most standard ingredients used in the dish.  
 
-**Cases Will the Program May Not Work**
+**Cases Where the Program May Not Work**
 
 As of now, despite being popular food items in the dummy data, the Bangladesh food composition table does not contain any items similar to Pickles and Chips, and therefore cannot be cleaned. However, if able to access a different food table and attain a cleaned version from there, then fixing this is as simple as the process described in the section above. 
 
-As of now, the program will never work on lines where the () are not closed and the commas are not placed properly. For example, Fish Curry (tomato, raddish, black chili, cucumber, oil, Cucurbit(2 pcs) Water (1 glass) is unable to be cleaned properly because the () for fish curry are never closed and there are no commas seperating cucurbit and water. This is because there is no pattern to determine where exactly the person met to place the closing ) or even the commas. In this case it may seem fairly obvious, but if a person were to list something like potato stew, potato and stew would not be seperated. The comma and ) could hypothetically be after any of the food items. However, these lines can be fixed rather easily by a human who can immediately identify the most likely place to put the ). The hope is that there are very few of these mistakes so that it would only take a few minutes at most to fix the lines that do have this problem. 
+As of now, the program will never work on lines where the () are not closed and the commas are not placed properly. For example, Fish Curry (tomato, raddish, black chili, cucumber, oil, Cucurbit(2 pcs) Water (1 glass) is unable to be cleaned properly because the () for fish curry are never closed and there are no commas seperating cucurbit and water. This is because there is no pattern to determine where exactly the person met to place the closing ) or even the commas. In this case it may seem fairly obvious, but if a person were to list something like potato stew, potato and stew would not be seperated. The comma and ) could hypothetically be after any of the food items. However, these lines can be fixed rather easily by a human who can immediately identify the most likely place to put the ). Fish Curry (tomato, raddish, black chili, cucumber, oil), Cucurbit(2 pcs), Water (1 glass) Another example of the code not working would be Rice (1 plate) and Fish curry (1 pcs) because no , seperates them. The hope is that there are very few of these mistakes so that it would only take a few minutes at most to fix the lines that do have this problem. 
+
 
 **Misc Features** 
 
