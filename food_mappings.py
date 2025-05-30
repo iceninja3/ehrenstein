@@ -19,6 +19,7 @@ food_mappings = {
     "corn": "Maize/corn, yellow, dried, raw",
     "maize": "Maize/corn, yellow, dried, raw",
     "corn flour": "Maize/corn flour, whole, white",
+     "gram flour": "Maize/corn flour, whole, white",
     "maize flour": "Maize/corn flour, whole, white",
     "cornmeal": "Maize/corn, yellow, dried, raw",
     "sweet corn": "Sweet corn, yellow, on the cob, raw",
@@ -68,6 +69,7 @@ food_mappings = {
     "amaranth": "Amaranth, stem, raw",
     "scarlet runner bean": "Bean, scarlet runner, raw",
     "beans": "Bean, seeds and pods, raw",
+    "hyacinth bean": "Bean, seeds and pods, raw",
     "beetroot": "Beet root, red, raw",
     "brinjal": "Brinjal, purple, long, boiled* (without salt)",
     "eggplant": "Brinjal, purple, long, boiled* (without salt)",  # Eggplant = Brinjal
@@ -105,6 +107,7 @@ food_mappings = {
     "plantain": "Plantain, boiled* (without salt)",
     "pumpkin": "Pumpkin, boiled* (without salt)",
     "radish": "Radish, boiled* (without salt)",
+    "radish vegetable": "Radish, boiled* (without salt)",
     "tomato": "Tomato, red, ripe, boiled* (without salt)",
     "green tomato": "Tomato, green, raw",
     "turnip": "Turnip, raw",
@@ -125,6 +128,7 @@ food_mappings = {
     "bottle gourd leaves": "Bottle gourd leaves, raw",
     "bugleweed": "Bugleweed, raw",
     "cassava leaves": "Cassava, leaves, raw",
+    "cassia leaf": "Cassava, leaves, raw",
     "colocasia leaves": "Colocasia leaves, green, raw",
     "cowpea leaves": "Cowpea, leaves, raw",
     "dima leaves": "Dima leaves, raw",
@@ -145,6 +149,7 @@ food_mappings = {
     "dark green sweet potato leaves": "Sweet potato leaves, SP4, dark green, mature, raw",
     "light green sweet potato leaves": "Sweet potato leaves, SP8, light green, mature, raw",
     "colocasia": "Colocasia/Taro, boiled* (without salt)",
+    "colocasia stem": "Colocasia/Taro, boiled* (without salt)",
     "taro": "Colocasia/Taro, boiled* (without salt)",
     "taro root": "Colocasia/Taro, boiled* (without salt)",
     "elephant foot": "Elephant foot, corm, boiled* (without salt)",
@@ -349,6 +354,7 @@ food_mappings = {
     "sweet tea": "Tea, infusion (with sugar)",
     "tea powder": "Tea, powder",
     "drinking water": "Water, drinking",
+    "cool drinks": "Water, drinking",
     "water": "Water, drinking",
     # Common Carbonated Drinks
     "cola": "Soft drinks, carbonated",
@@ -382,6 +388,7 @@ food_mappings = {
     "cheese, cottage": "Cheese, cottage, 25% fat",
 
     "sweetened curd": "Curd, sweetened, whole milk",
+    "cream": "Curd, sweetened, whole milk",
     "curd": "Curd, sweetened, whole milk",
     "whole milk curd": "Curd, sweetened, whole milk",
 
@@ -424,5 +431,6 @@ food_mappings = {
     "raw colostrum": "Milk, human, colostrum, raw",
 
     "payesh": "Payesh*"
+    
 }
 
