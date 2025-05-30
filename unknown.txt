@@ -607,30 +607,7 @@ UNKNOWN
  - porota (3pcs)																									
  - potato leaf (one																									
  - potato soup (cumin, oil, coriander leaf)																									
- - potato vegetable																									
- - potato vegetable (oil, spices)																									
- - potato vegetable (onion, green chili,coriander leaves)																									
- - potato vegetable (onion,green chili,coriander leaves,soyabean oil)																									
- - potato vegetable (potato, salt,oil, onion, coriander leaves)																									
- - potato vegetable (potato,carrot,oil)																									
- - potato vegetable (potato,onion,chili,coriander leaves,oil)																									
- - potato vegetable (raddish, oil,green chili, chickpea, pulse)																									
- - potato vegetable (turmeric, chili, oil)																									
- - potato vegetable (turmeric, chili, onion, garlic)																									
- - potato vegetable( chili, salt,onion)																									
- - potato vegetable( tomato, pumpkin, gourd, pointed gourd )																									
- - potato vegetable(coriander leaves,chili,tomato)																									
- - potato vegetable(potato,oil,chili,coriander leaves)																									
- - potato vegetables																									
- - potato vegetables (chili,coriander leaves,potato)																									
- - potato vegetables (oil,coriander leaves,potato)																									
- - potato vegetables (onion,green chili,soyabean oil,coriander leaves)																									
- - potato vegetables (potato,oil)																									
- - potato vegetables (potato,onion,chili)																									
- - potato vegetables (potato,papaya,cauliflower,chili,soyabean oil)																									
- - potato vegetables (potato,papaya,cauliflower,chili,soyabean oil,coriander leaves)																									
- - potato vegetables(oil,green chili,coriander leaves)																									
- - potato vegetables(potato,carrot,oil)																									
+																							
  - poultry meat curry ( poultry meat,oil,spice)																									
  - poya fish																									
  - poya fish (chili, onion,potato, bean, tomato, salt,turmeric,cumin)																									
@@ -735,7 +712,8 @@ UNKNOWN
  - smashed brinjal (brinjal, oil, salt)																									
  - smashed chili (coriander leaves, onion, chili)																									
  - smashed chilli (chilli, onion)																									
- - smashed coriander leaves																									
+ - smashed coriander leaves		
+
  - smashed dried fish (1 spoon)																									
  - smashed dried fish (2 spoon)																									
  - smashed dried fish (oil, turmeric, chilli, condiment)																									

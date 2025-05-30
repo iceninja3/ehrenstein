@@ -3,6 +3,7 @@ dish_mappings = {
     "small fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "chicken curry": ["chicken", "onion", "garlic", "ginger", "chilli"],
     "potato curry": ["potato", "chilli", "tumeric", "onion", "oil", "mustard oil"],
+    "potato vegetable": ["potato", "chilli", "tumeric", "onion", "oil", "mustard oil"],
     "smashed potato": ["beef", "potato", "onion", "tumeric", "oil", "chilli"],
     "potato chops": ["potato", "onion", "green chilli", "oil"],
     "potato fry": ["potato", "onion", "chilli", "oil"],
