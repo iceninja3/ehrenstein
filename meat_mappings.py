@@ -1,4 +1,4 @@
-fish_meat_table = {
+fish_meat_table = { 
     "anchovy": "Anchovy, Gangetic hairfin, raw",
     "raw anchovy": "Anchovy, Gangetic hairfin, raw",
     "dried anchovy": "Anchovy, Gangetic hairfin, dried",
@@ -37,6 +37,7 @@ fish_meat_table = {
     "raw catfish": "Catfish, Bacha, raw",
     "bacha catfish": "Catfish, Bacha, raw",
     "raw bacha catfish": "Catfish, Bacha, raw",
+    "yellowtail catfish": "Catfish, Bacha, raw",
 
     "pabda catfish": "Catfish, Pabda, raw",
     "raw pabda catfish": "Catfish, Pabda, raw",

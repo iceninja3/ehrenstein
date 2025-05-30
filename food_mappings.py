@@ -1,5 +1,5 @@
 food_mappings = {
-    # General Rice Terms
+    # General Rice Terms 
     "rice": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "panta": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "rice powder": "Rice, BR-28, boiled* (without salt)",
@@ -384,6 +384,7 @@ food_mappings = {
     "sweetened curd": "Curd, sweetened, whole milk",
     "curd": "Curd, sweetened, whole milk",
     "whole milk curd": "Curd, sweetened, whole milk",
+    "yogurt": "Curd, sweetened, whole milk",
 
     "buffalo milk": "Milk, buffalo, whole fat",
     "whole fat buffalo milk": "Milk, buffalo, whole fat",

@@ -909,10 +909,12 @@ UNKNOWN
  - vapa pitha (powdered rice, jaggery, salt, coconut)																									
  - vapa pitha (powdered rice, salt, jaggery, coconut)																									
  - vapa pitha (rice flour,coconut) water (1 glass)																									
- - vapa pitha (rice flour,coconut,jaggery)																									
+ - vapa pitha (rice flour,coconut,jaggery)		
+
  - vegatable curry mix (half bowl)																									
  - vegatbles(potaoto,bean,turmeric,chili,oil)																									
- - vegetable bun (flour, potato, salt, oil, chilli, turmeric)																									
+ - vegetable bun (flour, potato, salt, oil, chilli, turmeric)	
+
  - vegetable curry																									
  - vegetable curry ( potato, couliflower, oil)																									
  - vegetable curry (1 bowl)																									
@@ -940,7 +942,8 @@ UNKNOWN
  - vegetable curry (potato, pulse, tumeric, chilli, oil)																									
  - vegetable curry (tomato, radish, hyacinth bean)																									
  - vegetable curry (turmeric, chilli, condiment)																									
- - vegetable fry																									
+ - vegetable fry		
+
  - vegetable leaf																									
  - vegetable leaf ( soybean oil, chilli)																									
  - vegetable leaf (1 spoon)																									
@@ -987,7 +990,8 @@ UNKNOWN
  - vegetable steam																									
  - vegetable stem																									
  - vegetable stems																									
- - vegetables curry (potato, tomato, turmeric, chili, oil)																									
+ - vegetables curry (potato, tomato, turmeric, chili, oil)	
+
  - water (1																									
  - water (1`																									
  - water (2 glass																									
@@ -998,16 +1002,5 @@ UNKNOWN
  - water lily fry (onion, oil)																									
  - whole day																									
  - whole day water 4 glass																									
- - winter cake																									
- - yellowtail catfish																									
- - yellowtail catfish (2 pcs)																									
- - yellowtail catfish (malabar spinach, potato)																									
- - yellowtail catfish (onion, garlic, cumin)																									
- - yellowtail catfish (potato)																									
- - yellowtail catfish (radish leaf, onion, potato, oil)																									
- - yogurt																									
- - yogurt ( 1 cup)																									
- - yogurt (1 cup)																									
- - yogurt (1 glass)																									
- - yogurt (1 spoon)																									
- - yogurts (half glass)																									
+ - winter cake	
+																					
