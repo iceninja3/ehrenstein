@@ -586,10 +586,11 @@ UNKNOWN
  - pickles (mango, elephant apple)																									
  - pigeon pea fry (1 pack)																									
  - piyaju (1 pcs)																									
- - plum cake(oil,flour)																									
- - poa fish (potato,amaranth,turmeric,chili,oil)																									
- - poa fish(potato,amaranth,turmeric,chili,oil)																									
- - pointed catfish ( potato, turmeric, chilli, coriander leaf)																									
+ - plum cake(oil,flour)	
+
+																									
+ 
+
  - pointed gourd curry (onion																									
  - polao																									
  - polao (1 plate)																									
@@ -672,8 +673,8 @@ UNKNOWN
  - pulse+ bottle guard ( 4 spoon)																									
  - pumpkin fry (half bowl)																									
  - puri(1pc0																									
- - putae fish																									
- - puti fish																									
+		
+
  - raddish curry (1 spoon)																									
  - raddish curry (fish, raddish, potato, salt, chili, turmeric, cumin, oil)																									
  - raddish fry																									
@@ -688,19 +689,10 @@ UNKNOWN
  - rasaw malai (5 spoon)																									
  - rasmalai (1 spoon)																									
  - rasmalai (2 spoon)																									
- - raw sugar																									
- - red spinach																									
- - red spinach ( oil, salt,chili, onion, garlic)																									
- - red spinach (1 spoon) water (1 glass)																									
- - red spinach (1/2 bowl)																									
- - red spinach (chili, oil)																									
- - red spinach (chili, oil, onion)																									
- - red spinach (chili,onion,garlic)																									
- - red spinach (oil, chili, onion)																									
- - red spinach (oil, onion, salt)																									
- - red spinach (oil, salt, chili, red spinach)																									
- - red spinach (soyabean oil, green chili, salt, garlic)																									
- - red tea (sugar)																									
+ - raw sugar
+ 
+ - red tea (sugar)		
+
  - rice ( one																									
  - rice (1																									
  - rice (1 plate																									
@@ -712,11 +704,7 @@ UNKNOWN
  - ripe papaya																									
  - roast egg (tomato, oil,spice)																									
  - role (flour, vegetables)																									
- - roll																									
- - rui fish																									
- - rui fish ( cauliflower,potato,green chili, oil)																									
- - rui fish (cauliflower, potato,bean, tomato)																									
- - rui fish (cucumber, onion, oil)																									
+ - roll																																																	
  - salt brinjal fry (flour, oil,gram flour, salt, water)																									
  - saltwater																									
  - sandesh																									
@@ -725,14 +713,16 @@ UNKNOWN
  - sauce																									
  - sauce (1 pack)																									
  - semolina cake																									
- - shabudana ( half bowl)																									
+ - shabudana ( half bowl)	
+
  - shing fish																									
  - shing fish (pulse)																									
  - shrimp curry (potato)																									
  - shrimp curry (shrimp, bean, potato, radish)																									
  - shrimp fish curry ( onion, salt, potato, chili, turmeric)																									
  - shrimp fry (1 pcs)																									
- - shrimp fry (oil, spice)																									
+ - shrimp fry (oil, spice)	
+
  - smaashed pulse (1 spoon)																									
  - small fish+ bottle guard ( 1 bowl)																									
  - small prawn (2 spoon)																									
@@ -755,28 +745,33 @@ UNKNOWN
  - smashed elephant apple (sugar, green chilli, salt)																									
  - smashed fish																									
  - smashed fish (1 spoon)																									
- - smashed fish (dried fish, green banana)																									
+ - smashed fish (dried fish, green banana)	
+
  - smashed ginger																									
  - smashed gram (cucumber, chanachur, onion, chili, peanut)																									
  - smashed hyacinth bean (1 spoon)																									
  - smashed olive (salt, chilli)																									
  - smashed pointed gourd (potato, fish, onion, chilli, coriander leaf)																									
  - smashed pulse																									
- - smashed pulse (3 spoon)																									
+ - smashed pulse (3 spoon)	
+
  - smashed shrimp																									
  - smashed shrimp (1 spoon)																									
  - smashed shrimp (1 tea spoon)																									
  - smashed shrimp (chili)																									
  - smashed shrimp (onion, coriander leaves)																									
- - smashed shrimp (onion, green chili, coriander leaves, garlic)																									
+ - smashed shrimp (onion, green chili, coriander leaves, garlic)	
+
  - smashed stolon of taro (onion, green chili, coriander leaf, salt, dried fish)																									
- - smashed taro root (1 bowl)																									
+ - smashed taro root (1 bowl)	
+
  - smashed vegetable																									
  - smashed vegetable (1 bowl)																									
  - smashed vegetable (1 spoon)																									
  - smashed vegetable (oil, chilli, onion)																									
  - smashed vegetable leaf																									
- - smashed vegetable leaf (1 spoon)																									
+ - smashed vegetable leaf (1 spoon)	
+
  - smoothie																									
  - snack (sugar, rice,coconut)																									
  - snack (sugar,rice,coconut)																									
@@ -791,7 +786,9 @@ UNKNOWN
  - sour (fish, green pepper, tomato, turmeric. chili)																									
  - sour (rice juice, tomato, coriander leaves, green chili, turmeric, salt)																									
  - sour curry																									
- - sour pulse (1 spoon)																									
+ - sour pulse (1 spoon)	
+
+
  - soy meat																									
  - soy meat ( potato)																									
  - soy meat ( potato, chilli, salt, termeric, cumin, bay leaf, coriander leaf, oil, condiment)																									
@@ -808,7 +805,9 @@ UNKNOWN
  - soy meat (potato, tomato, turmeric, salt, oil, condiment)																									
  - soy meat curry (potato, oil, turmeric, chilli, cauliflower) spine gourd fry																									
  - soya meat (1 bowl)																									
- - soymeat																									
+ - soymeat			
+
+
  - spice																									
  - spiced puffed																									
  - spiced puffed rice																									
@@ -817,7 +816,7 @@ UNKNOWN
  - spiced puffed rice (meat broth, chili, chickpea, chanachur, lemon)																									
  - spiced puffed(onion, oil, green chilli,chanachur,chickpa,coriander)																									
  - spiced puffed(onion,spices,coriander,chickpea,chanachur,ginger,chili,lemon)																									
- - spices																									
+ - spices																								
  - spicy puffed (onion, mastered oil, tomato, green chili)																									
  - spicy puffed rice																									
  - spicy puffed rice (chanachur, condiment)																									
@@ -842,7 +841,8 @@ UNKNOWN
  - spicy puffed rice (puffed rice,cucumber,onion,chili,tomato,coriander leaves,chanachur,oil,spices,chickpea)																									
  - spicy puffed rice (pulse,cucumber,chickpea,spices)																									
  - spicy puffed rice( oil,cucumber,chili,coriander leaves)																									
- - spicy puffed rice(chickpea,potato,chanachur,chili,onion)																									
+ - spicy puffed rice(chickpea,potato,chanachur,chili,onion)
+
  - spleen amaranth																									
  - spleen amaranth (potato)																									
  - sprite/ 7up																									
@@ -861,28 +861,16 @@ UNKNOWN
  - swamp barb curry ( potato, tomato, turmeric, chili, coriander leaf)																									
  - swamp barb curry (onion, salt)																									
  - swamp barb(1 pcs)																									
- - sweet (1 pcs) water (1 glass)																									
+ - sweet (1 pcs) water (1 glass)	
+
  - tamarind broth																									
  - tamarind pickle																									
  - tamarind pickle (1 pack)																									
  - tamarind pickle (half pack)																									
  - tandoori bread (1 pc)																									
- - tang																									
- - taro leaf																									
- - taro leaf (1 bowl)																									
- - taro leaf (green chili, salt, onion, oil, hyacinth bean seed)																									
- - taro leaf (onion, oil, green chili, salt, garlic, smashed ginger)																									
- - taro leaf( potato, oil)																									
- - telapia fish																									
- - telapia fish (hyacinth, potato)																									
- - telapia fish (onion, chili,raddish, potato, tomato,salt, coriander leaves)																									
- - telapia fish (onion, raddish, potato, coriander leaves, salt)																									
- - telapia fish (pointed gourd, potato, oil, onion, cumin)																									
- - telapia fish (potato, hyacinth bean, radish)																									
- - telapia fish (potato, oil, turmeric, chilli)																									
- - telapia fish (potato, tomato, onion, garlic, condiment, coriander leaf)																									
- - telapia fish(cauliflower, potato, onion,salt, chili)																									
- - tengra fish																									
+ - tang			
+
+
  - tikka (cow belly)																									
  - tilapia fish curry(brinjal)																									
  - toast biscuits (2pcs)																									
@@ -893,12 +881,15 @@ UNKNOWN
  - tomato salad (3 spoon)																									
  - tomato sauce (1 pac)																									
  - tomato sauce(1-1/2 spoon)																									
- - tomato sour curry																									
+ - tomato sour curry		
+
  - tora root (oil, chilli, turmeric)																									
  - tropicana fruits																									
  - turmeric pulse chop																									
- - turmeric.chili																									
- - unripe banana																									
+ - turmeric.chili		
+
+ - unripe banana		
+
  - vapa pitha																									
  - vapa pitha (1 pcs)																									
  - vapa pitha (coconut, jaggery)																									
@@ -928,8 +919,7 @@ UNKNOWN
  - water (1`																									
  - water (2 glass																									
  - water 2 glass																									
- - water 2glass																									
-																																															
+ - water 2glass																																																																
 																							
  - whole day																									
  - whole day water 4 glass																									
