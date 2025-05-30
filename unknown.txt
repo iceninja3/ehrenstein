@@ -809,39 +809,7 @@ UNKNOWN
 
 
  - spice																									
- - spiced puffed																									
- - spiced puffed rice																									
- - spiced puffed rice ( oil, spices, cucumber, carrot, lemon)																									
- - spiced puffed rice (1 packet)																									
- - spiced puffed rice (meat broth, chili, chickpea, chanachur, lemon)																									
- - spiced puffed(onion, oil, green chilli,chanachur,chickpa,coriander)																									
- - spiced puffed(onion,spices,coriander,chickpea,chanachur,ginger,chili,lemon)																									
- - spices																								
- - spicy puffed (onion, mastered oil, tomato, green chili)																									
- - spicy puffed rice																									
- - spicy puffed rice (chanachur, condiment)																									
- - spicy puffed rice (chanachur, condiment, cucumber, lemon)																									
- - spicy puffed rice (chili,chanachur,chickpea,oil)																									
- - spicy puffed rice (chili,cucumber,carrot,onion,coriander leaves,spicy spices,potato,puffed rice)																									
- - spicy puffed rice (chili,potato,chickpea)																									
- - spicy puffed rice (coriander leaves, salt, green chili, lemon)																									
- - spicy puffed rice (cucumber,onion,chili)																									
- - spicy puffed rice (green chili,tomato,lemon,cucumber,chanachur,chickpea,peas)																									
- - spicy puffed rice (lemon, chili,spices)																									
- - spicy puffed rice (onion, chili, coriander leaf)																									
- - spicy puffed rice (onion, green chili,tomato,chickpea,gram pea,soyaben oil)																									
- - spicy puffed rice (onion, mastered oil, tomato, green chili)																									
- - spicy puffed rice (onion,chili,chanachur,cucumber,chickpea,potato)																									
- - spicy puffed rice (onion,green chili,chickpea,lemon,soyabean oil,cucumber,gram pea)																									
- - spicy puffed rice (onion,green chili,lemon,tomato,cucumber,black salt,chickpea,grampea)																									
- - spicy puffed rice (potato, pea)																									
- - spicy puffed rice (puffed rice, chanachur, onion, chili, oil)																									
- - spicy puffed rice (puffed rice,chanachur,cucumber,carrot)																									
- - spicy puffed rice (puffed rice,cucumber,chili,oil,spices,coriander leaves,lemon,onion)																									
- - spicy puffed rice (puffed rice,cucumber,onion,chili,tomato,coriander leaves,chanachur,oil,spices,chickpea)																									
- - spicy puffed rice (pulse,cucumber,chickpea,spices)																									
- - spicy puffed rice( oil,cucumber,chili,coriander leaves)																									
- - spicy puffed rice(chickpea,potato,chanachur,chili,onion)
+ - spiced puffed	
 
  - spleen amaranth																									
  - spleen amaranth (potato)																									

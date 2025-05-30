@@ -8,6 +8,7 @@ food_mappings = {
     "white rice": "Rice, white, sunned, polished, milled, boiled* (without salt)",
     "brown rice": "Rice, brown, parboiled, milled, boiled* (without salt)",
     "puffed rice": "Rice, puffed, salted",
+    "spicy puffed rice": "Rice, puffed, salted",
     "jhal": "Rice, puffed, salted",
     "rice puffs": "Rice, puffed, salted",
     "popped rice": "Rice, popped",
