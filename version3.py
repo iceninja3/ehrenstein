@@ -16,7 +16,7 @@ from variables import (
     NUM_ITEMS_NECESSARY_TO_EXPAND,
     FILE_NAME,
 )
-
+unknown_itemsed = set()
 
 def fuzzy_match(item, mapping_dict):
     item = item.strip()
@@ -235,9 +235,11 @@ def clean_food_entry(original_entry, quantity_text=None):
             for item in remaining_items:
                 item["weight"] = total_quantity / len(remaining_items)
 
-    for item in temp_storage:
+    for i, item in enumerate(temp_storage):
         if not item["name"]:
             cleaned_items.append("UNKNOWN")
+            original_str = food_items[i].strip()
+            unknown_itemsed.add(original_str)
         elif item["weight"] is not None:
             weight_per_100g = round(item["weight"] / 100, 2)
             cleaned_items.append(f"{item['name']} {{{weight_per_100g}}}")
@@ -245,8 +247,9 @@ def clean_food_entry(original_entry, quantity_text=None):
                 raw_cooked_items.append(item["name"])
         else:
             cleaned_items.append(item["name"])
-            if item["matched_fish_meat"]: #if our item is found
+            if item["matched_fish_meat"]:
                 raw_cooked_items.append(item["name"])
+
 
     return "; ".join(cleaned_items), "; ".join(raw_cooked_items)
 
@@ -275,4 +278,11 @@ for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
         df.insert(quant_index + 1, col_name, cleaned_data[col_name])
 
 df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
-print("✅ Cleaning complete.")
+print("Cleaning complete.")
+print(clean_food_entry("chicken curry (1 pcs)"))
+#we will make a list of unknown items to append to the 
+if unknown_itemsed:
+    print("\n UNKNOWN items found:")
+    for item in sorted(unknown_itemsed):
+        print(f" - {item}")
+

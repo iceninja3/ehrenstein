@@ -7,6 +7,7 @@ dish_mappings = {
     "potato chops": ["potato", "onion", "green chilli", "oil"],
     "potato fry": ["potato", "onion", "chilli", "oil"],
     "mix fry": ["chicken", "potato", "pointed gourd", "oil", "pukse"],
+     "doom fry": ["chicken", "potato", "pointed gourd", "oil", "pukse", "e2ij"],
     "egg fry": ["egg", "tomato", "green chilli", "onion", "tumeric", "oil"],
     "pointed gourd fry": ["pointed gourd", "onion", "oil"],
     "mixed vegetables": ["radish," "onion", "potato", "carrot", "oil"],
