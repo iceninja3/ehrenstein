@@ -1,5 +1,5 @@
 food_mappings = {
-    # General Rice Terms
+    # General Rice Terms 
     "rice": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "panta": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "rice powder": "Rice, BR-28, boiled* (without salt)",
@@ -28,6 +28,7 @@ food_mappings = {
     "sweet biscuit": "Biscuit, sweet*",
     "biscuit": "Biscuit, sweet*",
     "cake": "Biscuit, sweet*",
+    "winter cake": "Biscuit, sweet*",
      "bread": "Bread, bun/roll",
     "bread roll": "Bread, bun/roll",
     "bun": "Bread, bun/roll",
@@ -143,7 +144,9 @@ food_mappings = {
     "pumpkin flower": "Pumpkin leaves, raw",
     "radish leaves": "Radish leaves, raw",
     "slender amaranth leaves": "Slender amaranth leaves, boiled* (without salt)",
+    "red spinach": "Spinach, boiled* (without salt)",
     "spinach": "Spinach, boiled* (without salt)",
+    "taro leaf": "Spinach, boiled* (without salt)",
     "water spinach": "Spinach, boiled* (without salt)",
     "sweet potato leaves": "Sweet potato leaves, raw",
     "dark green sweet potato leaves": "Sweet potato leaves, SP4, dark green, mature, raw",
@@ -340,6 +343,8 @@ food_mappings = {
     "date": "Jaggery/Panela, date palm",
     "date palm": "Jaggery/Panela, date palm",
     "red betel leaves": "Betel leaves",
+    "vegetable leaf": "Betel leaves",
+    "smashed vegetable leaf": "Betel leaves",
     "honey": "Honey",
     "sugar": "Sugar, white",
     "sweet": "Sugar, white",
@@ -391,6 +396,7 @@ food_mappings = {
     "cream": "Curd, sweetened, whole milk",
     "curd": "Curd, sweetened, whole milk",
     "whole milk curd": "Curd, sweetened, whole milk",
+    "yogurt": "Curd, sweetened, whole milk",
 
     "buffalo milk": "Milk, buffalo, whole fat",
     "whole fat buffalo milk": "Milk, buffalo, whole fat",

@@ -1,4 +1,4 @@
-fish_meat_table = {
+fish_meat_table = { 
     "anchovy": "Anchovy, Gangetic hairfin, raw",
     "raw anchovy": "Anchovy, Gangetic hairfin, raw",
     "dried anchovy": "Anchovy, Gangetic hairfin, dried",
@@ -11,6 +11,8 @@ fish_meat_table = {
     "raw scaly hairfin anchovy": "Anchovy, Scaly hairfin, raw",
 
     "barb": "Barb, Pool barb, raw",
+    "putae fish": "Barb, Pool barb, raw",																							
+ -  "puti fish": "Barb, Pool barb, raw",
     "olive barb": "Barb, Olive, raw",
     "raw olive barb": "Barb, Olive, raw",
     "boneless olive barb": "Barb, Olive, without bones, raw",
@@ -34,9 +36,12 @@ fish_meat_table = {
     "boneless calbasu": "Calbasu, without bones, raw",
 
     "catfish": "Catfish, Bacha, raw",
+    "pointed catfish": "Catfish, Bacha, raw",
     "raw catfish": "Catfish, Bacha, raw",
     "bacha catfish": "Catfish, Bacha, raw",
     "raw bacha catfish": "Catfish, Bacha, raw",
+    "yellowtail catfish": "Catfish, Bacha, raw",
+    
 
     "pabda catfish": "Catfish, Pabda, raw",
     "raw pabda catfish": "Catfish, Pabda, raw",
@@ -73,6 +78,7 @@ fish_meat_table = {
 
     "black spotted croaker": "Croaker, Black spotted, without bones, raw",
     "croaker": "Croaker, Black spotted, without bones, raw",
+    "poa fish": "Croaker, Black spotted, without bones, raw",
     "raw croaker": "Croaker, Black spotted, without bones, raw",
     "raw black spotted croaker": "Croaker, Black spotted, without bones, raw",
 
@@ -286,6 +292,7 @@ fish_meat_table = {
 
     "rohu": "Rohu, river, raw",
     "rui": "Rohu, river, raw",
+    "rui fish": "Rohu, river, raw",
     "river rohu": "Rohu, river, raw",
     "raw rohu": "Rohu, river, raw",
     "raw river rohu": "Rohu, river, raw",
@@ -322,6 +329,7 @@ fish_meat_table = {
     "raw striped snakehead": "Striped snake-head, raw",
 
     "tilapia": "Tilapia, without bones, raw",
+    "telapia fish": "Tilapia, without bones, raw",
     "raw tilapia": "Tilapia, without bones, raw",
     "boneless tilapia": "Tilapia, without bones, raw",
     "raw boneless tilapia": "Tilapia, without bones, raw",
