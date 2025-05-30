@@ -913,78 +913,10 @@ UNKNOWN
 
  - vegatable curry mix (half bowl)																									
  - vegatbles(potaoto,bean,turmeric,chili,oil)																									
- - vegetable bun (flour, potato, salt, oil, chilli, turmeric)	
+ - vegetable bun (flour, potato, salt, oil, chilli, turmeric)			
 
- - vegetable curry																									
- - vegetable curry ( potato, couliflower, oil)																									
- - vegetable curry (1 bowl)																									
- - vegetable curry (1 plate)																									
- - vegetable curry (1 spoon)																									
- - vegetable curry (bean, potato, tomato, fish, oil, garlic)																									
- - vegetable curry (cauliflower, potato, turmeric, chilli, oil)																									
- - vegetable curry (cauliflower, radish, green banana, potato, oil)																									
- - vegetable curry (half bowl)																									
- - vegetable curry (hyacinth bean, potato, tomato)																									
- - vegetable curry (onion, condiment)																									
- - vegetable curry (onion, coriander leaf, chilli)																									
- - vegetable curry (papaya, potato, green chili)																									
- - vegetable curry (papaya, potato, turmeric, condiment, salt, oil, onion, garlic)																									
- - vegetable curry (potato, amaranth, tomato)																									
- - vegetable curry (potato, carrot, onion, chilli, oil)																									
- - vegetable curry (potato, hyacinth bean)																									
- - vegetable curry (potato, hyacinth bean, chilli)																									
- - vegetable curry (potato, hyacinth bean, radish, bottle gourd, turmeric, chilli, salt, oil)																									
- - vegetable curry (potato, hyacinth bean, tomato, cauliflower, onion, chili, soybean oil)																									
- - vegetable curry (potato, onion, tomato, radish, oil, condiment)																									
- - vegetable curry (potato, pointed gourd, brinjal, onion, garlic, turmeric, chilli, oil)																									
- - vegetable curry (potato, pointed gourd, brinjal, turmeric, chilli, oil)																									
- - vegetable curry (potato, pointed gourd, oil)																									
- - vegetable curry (potato, pulse, tumeric, chilli, oil)																									
- - vegetable curry (tomato, radish, hyacinth bean)																									
- - vegetable curry (turmeric, chilli, condiment)																									
- - vegetable fry		
+																						
 
- - vegetable leaf																									
- - vegetable leaf ( soybean oil, chilli)																									
- - vegetable leaf (1 spoon)																									
- - vegetable leaf (1 table spoon)																									
- - vegetable leaf (2 spoon)																									
- - vegetable leaf (chilli)																									
- - vegetable leaf (chilli, oil, salt)																									
- - vegetable leaf (chilli, oil, salt, turmeric)																									
- - vegetable leaf (chilli, oil, turmeric)																									
- - vegetable leaf (chilli, salt, oil)																									
- - vegetable leaf (chilli, salt, oil, turmeric, condiment)																									
- - vegetable leaf (chilli, salt, turmeric, oil)																									
- - vegetable leaf (chilli,oil, salt)																									
- - vegetable leaf (dried fish, onion, garlic, oil)																									
- - vegetable leaf (garli, chilli)																									
- - vegetable leaf (garlic, onion, oil)																									
- - vegetable leaf (half bowl)																									
- - vegetable leaf (oil, chilli)																									
- - vegetable leaf (oil, garlic, green chilli, salt, onion)																									
- - vegetable leaf (oil, onion, salt)																									
- - vegetable leaf (oil, salt, chilli)																									
- - vegetable leaf (oil, salt, onion)																									
- - vegetable leaf (onion, chili, oil)																									
- - vegetable leaf (onion, garlic, chilli)																									
- - vegetable leaf (onion, garlic, oil)																									
- - vegetable leaf (onion, oil, chili, turmeric, garlic)																									
- - vegetable leaf (onion, oil, chilli)																									
- - vegetable leaf (onion, salt, oil, garlic, turmeric)																									
- - vegetable leaf (potato, dried fish)																									
- - vegetable leaf (potato, oil)																									
- - vegetable leaf (pulse)																									
- - vegetable leaf (salt, oil, chilli, turmeric)																									
- - vegetable leaf (salt, turmeric, chilli, oil)																									
- - vegetable leaf (turmeric, oil, garlic)																									
- - vegetable leaf chop (turmeric, gram flour, oil)																									
- - vegetable leaf curry (2 spoon)																									
- - vegetable leaf curry (half bowl)																									
- - vegetable leaf( chilli)																									
- - vegetable leaf( potato, chilli, onion, oil, condiment)																									
- - vegetable leaf(1 spoon)																									
- - vegetable leaf(half bowl)																									
  - vegetable polao																									
  - vegetable soup (potato, oil, chilli, turmeric)																									
  - vegetable steam																									
@@ -997,10 +929,8 @@ UNKNOWN
  - water (2 glass																									
  - water 2 glass																									
  - water 2glass																									
- - water lilly fry ( black cumin,chilly, soybean oil)																									
- - water lily curry (onion)																									
- - water lily fry (onion, oil)																									
+																																															
+																							
  - whole day																									
  - whole day water 4 glass																									
- - winter cake	
 																					

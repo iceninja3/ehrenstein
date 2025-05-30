@@ -13,11 +13,14 @@ dish_mappings = {
     "mixed vegetables": ["radish," "onion", "potato", "carrot", "oil"],
     "tip vegetables": ["eggplant", "potato", "radish", "spinach"],
     "vegetable": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric"],
+    "vegetable curry": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric", "bean"],
+    "vegetable fry": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric", "bean"],
     "samosas": ["potatos", "carrots", "onion", "oil", "green chilli"],
     "salad": ["tomato", "cucumber", "onion", "radish", "ginger"],
     "condiment": ["green chilli", "coriander"],
     "jhalmuri": ["rice puffs", "potato", "tomato", "onion", "oil"],
     "pitha": ["milk", "rice powder", "jaggery", "payesh"],
     "pitha - pati sapta": ["rice flour", "sugar", "milk"],
-    
+    "water lilly fry": ["black cumin", "soybean oil", "onion", "water lily", "chilli"],
+    "water lilly curry": ["black cumin", "soybean oil", "onion", "water lily", "chilli"]
 }
