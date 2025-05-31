@@ -63,6 +63,7 @@ food_mappings = {
     "ash gourd": "Gourd, ash, raw",
     "winter melon": "Gourd, ash, raw",
     "bitter gourd": "Gourd, bitter, boiled* (without salt)",
+    "bitter melon": "Gourd, bitter, boiled* (without salt)",
     "bottle gourd": "Gourd, bottle, raw",
     "pointed gourd": "Gourd, pointed, boiled* (without salt)",
     "ridge gourd": "Gourd, ridge, raw",
@@ -72,6 +73,7 @@ food_mappings = {
     "gourd fry": "Gourd, bitter, fry*",  # New addition
     # Vegetables
     "amaranth": "Amaranth, stem, raw",
+    "vegetable stem": "Amaranth, stem, raw",
     "scarlet runner bean": "Bean, scarlet runner, raw",
     "beans": "Bean, seeds and pods, raw",
     "hyacinth bean": "Bean, seeds and pods, raw",
@@ -100,6 +102,7 @@ food_mappings = {
     "black gram": "Black gram, split, dried, raw",
     "urad beans": "Black gram, split, dried, raw",  # Alternative name for Black Gram
     "green gram": "Green gram, split, boiled* (without salt)",
+    "lentil": "Green gram, split, boiled* (without salt)",
     "pulse": "Green gram, split, boiled* (without salt)",
     "mung beans": "Green gram, split, boiled* (without salt)",  # Alternative name for Green Gram
     "red gram": "Red gram, split, dried, raw",
@@ -155,6 +158,7 @@ food_mappings = {
     "slender amaranth leaves": "Slender amaranth leaves, boiled* (without salt)",
     "red spinach": "Spinach, boiled* (without salt)",
     "spinach": "Spinach, boiled* (without salt)",
+    "gourd spinach": "Spinach, boiled* (without salt)",
     "taro leaf": "Spinach, boiled* (without salt)",
     "water spinach": "Spinach, boiled* (without salt)",
     "sweet potato leaves": "Sweet potato leaves, raw",
@@ -186,6 +190,8 @@ food_mappings = {
     "coconut milk": "Coconut milk",
     "coconut": "Coconut, mature kernel",
     "desiccated coconut": "Coconut, desiccated",
+    "coconut husk": "Coconut, desiccated",
+    "coconut raw sugar": "Coconut, desiccated",
     "groundnut": "Groundnuts/Peanut, raw",
     "peanut": "Groundnuts/Peanut, raw",
     "jackfruit seeds": "Jackfruit seeds, raw",
@@ -245,6 +251,8 @@ food_mappings = {
     "asian pears": "Asian pears, raw",
     "pears": "Asian pears, raw",
     "banana": "Banana, Sagar, ripe, raw",
+    "green banana": "Banana, Sagar, ripe, raw",
+
     "breadfruit": "Breadfruit, raw",
     "bullocks heart": "Bullocks Heart, ripe, raw",
     "ox heart": "Bullocks Heart, ripe, raw",
@@ -283,6 +291,8 @@ food_mappings = {
     "lime": "Lime, sweet, raw",
     "lychee": "Lychee, raw",
     "mango": "Mango, Fazli, orange flesh, ripe, raw",
+    "dry mango": "Mango, Fazli, orange flesh, ripe, raw",
+    "dried mango": "Mango, Fazli, orange flesh, ripe, raw",
     "fazli mango": "Mango, Fazli, orange flesh, ripe, raw",
     "langra mango": "Mango, Langra, yellow flesh, ripe, raw",
     "melon": "Melon, Futi, orange flesh, ripe, raw",
@@ -292,6 +302,7 @@ food_mappings = {
     "muskmelon": "Muskmelon, Bangee, light orange flesh, ripe, raw",
     "juice": "Orange juice, raw (unsweetened)",
     "orange juice": "Orange juice, raw (unsweetened)",
+    "mango juice": "Orange juice, raw (unsweetened)",
     "orange": "Orange, raw",
     "sweet orange": "Orange, sweet, ripe, raw",
     "palmyra palm": "Palmyra palm, cotyledon, raw",

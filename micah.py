@@ -1,3 +1,4 @@
+
 import pandas as pd
 import re
 from food_mappings import food_mappings
@@ -40,20 +41,17 @@ def extract_quantity(text):
     match = re.search(r"\((.*?)\)", str(text).lower())
     if not match:
         return None, None, None
-    
+
     quantity_string = match.group(1).strip()
-    
     parts = [p.strip() for p in quantity_string.split(",")]
     for part in parts:
         lowered = part.lower()
         if lowered in baseWeights:
             return baseWeights[lowered], lowered, quantity_string
-        
         if "half" in part:
             for unit in baseWeights:
                 if unit in part:
                     return 0.5 * baseWeights[unit], unit, quantity_string
-                
         if "quarter" in part:
             for unit in baseWeights:
                 if unit in part:
@@ -67,9 +65,8 @@ def extract_quantity(text):
     return None, None, quantity_string
 
 def parse_quantity_column(text):
-    if not isinstance(text, str): #if this not a string assume 300 
-        return DEFAULT_TOTAL_WEIGHT #variable used to determine weight to be split among dishes that were given no metric 
-
+    if not isinstance(text, str):
+        return DEFAULT_TOTAL_WEIGHT
     total = 0
     text = text.lower().replace("halfbowl", "half bowl")
     parts = text.split(",")
@@ -77,27 +74,19 @@ def parse_quantity_column(text):
     for part in parts:
         part = part.strip()
         lowered = part.lower()
-
-        
         if lowered in baseWeights:
-            total += baseWeights[lowered] #if the variable is found in base weights change it 
-            continue  
-
-        
+            total += baseWeights[lowered]
+            continue
         if "half" in lowered:
-            for unit in baseWeights: 
+            for unit in baseWeights:
                 if unit in lowered:
-                    total += 0.5 * baseWeights[unit] #if the unit in base weights is found in the table, add it 
+                    total += 0.5 * baseWeights[unit]
                     break
-
-        
         elif "quarter" in lowered:
             for unit in baseWeights:
                 if unit in lowered:
                     total += 0.25 * baseWeights[unit]
                     break
-
-        
         else:
             match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(.+)", lowered)
             if match:
@@ -108,7 +97,6 @@ def parse_quantity_column(text):
                     total += num * baseWeights[unit]
 
     return total if total > 0 else DEFAULT_TOTAL_WEIGHT
-
 
 def clean_food_entry(original_entry, quantity_text=None):
     if pd.isna(original_entry):
@@ -162,11 +150,10 @@ def clean_food_entry(original_entry, quantity_text=None):
 
             return match.group(0)
 
+
         return pattern.sub(replace_fn, entry.lower())
 
     original_entry = expand_parentheticals(original_entry)
-
-    # Step 2: Split and clean individual food items
     food_items = re.split(r"\swith\s|\sand\s|,(?![^()]*\))", original_entry)
 
     cleaned_items = []
@@ -177,50 +164,38 @@ def clean_food_entry(original_entry, quantity_text=None):
     while i < len(food_items):
         item = food_items[i].strip().lower()
         base_item = re.sub(r"\s*\(.*?\)", "", item).strip()
-        matched_dish = dish_mappings.get(base_item)
-        if not matched_dish:
-            matched_dish = dish_mappings.get(fuzzy_match_key(base_item, dish_mappings))
-
+        matched_dish = dish_mappings.get(base_item) or dish_mappings.get(fuzzy_match_key(base_item, dish_mappings))
         if matched_dish:
-            food_items[i:i+1] = matched_dish  # replace in place
-            continue  # re-check current index
-        else:
-            weight, unit, quantity_str = extract_quantity(item)
-            matching_item = re.sub(r"\(.*?\)", "", item).strip().lower()
-            matched_food = food_mappings.get(matching_item, fuzzy_match(matching_item, food_mappings))
-            matched_fish_meat = fish_meat_table.get(matching_item, fuzzy_match(matching_item, fish_meat_table))
-            cleaned_name = matched_fish_meat or matched_food
-            category = ingredient_categories.get(cleaned_name, None)
-
-            if cleaned_name and not weight:
-                if category == "garnish":
-                    weight = DEFAULT_GARNISH_WEIGHT
-                elif category == "oil":
-                    weight = DEFAULT_OIL_WEIGHT
-
-            temp_storage.append({
-                "name": cleaned_name,
-                "weight": weight,
-                "category": category,
-                "matched_fish_meat": matched_fish_meat
-            })
-
+            food_items[i:i+1] = matched_dish
+            continue
+        weight, unit, quantity_str = extract_quantity(item)
+        matching_item = re.sub(r"\(.*?\)", "", item).strip().lower()
+        matched_food = food_mappings.get(matching_item, fuzzy_match(matching_item, food_mappings))
+        matched_fish_meat = fish_meat_table.get(matching_item, fuzzy_match(matching_item, fish_meat_table))
+        cleaned_name = matched_fish_meat or matched_food
+        category = ingredient_categories.get(cleaned_name, None)
+        if cleaned_name and not weight:
+            if category == "garnish":
+                weight = DEFAULT_GARNISH_WEIGHT
+            elif category == "oil":
+                weight = DEFAULT_OIL_WEIGHT
+        temp_storage.append({
+            "name": cleaned_name,
+            "weight": weight,
+            "category": category,
+            "matched_fish_meat": matched_fish_meat
+        })
         i += 1
-        
 
-    total_quantity = parse_quantity_column(quantity_text) #we want to split the quantity in the quantity column 
-
+    total_quantity = parse_quantity_column(quantity_text)
     fixed_items = [x for x in temp_storage if x["weight"] is not None]
     remaining_items = [x for x in temp_storage if x["weight"] is None and x["name"]]
-
     if remaining_items:
-
         proteins = [x for x in remaining_items if ingredient_categories.get(x["name"]) == "protein"]
         non_proteins = [x for x in remaining_items if ingredient_categories.get(x["name"]) != "protein"]
         if proteins and non_proteins:
             total_protein_weight = total_quantity * PROTEIN_WEIGHT_RATIO
             total_non_protein_weight = total_quantity * NON_PROTEIN_WEIGHT_RATIO
-
             for item in proteins:
                 item["weight"] = total_protein_weight / len(proteins)
             for item in non_proteins:
@@ -244,9 +219,7 @@ def clean_food_entry(original_entry, quantity_text=None):
             if item["matched_fish_meat"]:
                 raw_cooked_items.append(item["name"])
 
-
     return "; ".join(cleaned_items), "; ".join(raw_cooked_items)
-
 
 input_file = FILE_NAME
 df = pd.read_excel(input_file, sheet_name="Tabelle1", header=1)
@@ -268,14 +241,9 @@ for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
     cleaned_data.columns = [new_clean_col, new_raw_col]
 
     quant_index = df.columns.get_loc(quant_col)
-    for col_name in reversed(cleaned_data.columns): 
+    for col_name in reversed(cleaned_data.columns):
         df.insert(quant_index + 1, col_name, cleaned_data[col_name])
 
 df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
 print("Cleaning complete.")
-print(clean_food_entry("pulse chop (pulse, water lilly, chilli, soybean oil)"))
-#we will make a list of unknown items to append to the 
-# if unknown_itemsed:
-#     print("\n UNKNOWN items found:")
-#     for item in sorted(unknown_itemsed):
-#         print(f" - {item}")
+print(clean_food_entry("tora root (oil, chilli, turmeric)"))

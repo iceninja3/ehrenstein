@@ -248,6 +248,7 @@ fish_meat_table = {
     "medium fish": "Pangas, without bones, raw",
     "pangas": "Pangas, without bones, raw",
     "pangas fish": "Pangas, without bones, raw",
+    "pangash fish": "Pangas, without bones, raw",
     "boneless pangas": "Pangas, without bones, raw",
     "raw pangas": "Pangas, without bones, raw",
     "raw boneless pangas": "Pangas, without bones, raw",
@@ -386,6 +387,7 @@ fish_meat_table = {
 
     "chicken leg": "Chicken leg, without skin, raw",
     "chicken": "Chicken leg, without skin, raw",
+    "burned chicken": "Chicken leg, without skin, raw",
     "chicken drumstick": "Chicken leg, without skin, raw",
     "boneless chicken leg": "Chicken leg, without skin, raw",
     "raw chicken leg": "Chicken leg, without skin, raw",
