@@ -158,6 +158,7 @@ food_mappings = {
     "taro leaf": "Spinach, boiled* (without salt)",
     "water spinach": "Spinach, boiled* (without salt)",
     "sweet potato leaves": "Sweet potato leaves, raw",
+    "vegetable potato leaf": "Sweet potato leaves, raw",
     "dark green sweet potato leaves": "Sweet potato leaves, SP4, dark green, mature, raw",
     "light green sweet potato leaves": "Sweet potato leaves, SP8, light green, mature, raw",
     "colocasia": "Colocasia/Taro, boiled* (without salt)",
@@ -306,6 +307,7 @@ food_mappings = {
     "egg with potato": "Egg, chicken, farmed, boiled* (without salt); Potato, Diamond, boiled* (without salt)",
     "egg": "Egg, chicken, farmed, boiled* (without salt)",  # Override raw with boiled
     "chicken egg": "Egg, chicken, farmed, boiled* (without salt)",
+    
     "farmed egg": "Egg, chicken, farmed, boiled* (without salt)",
     "boiled egg": "Egg, chicken, farmed, boiled* (without salt)",
     "boiled chicken egg": "Egg, chicken, farmed, boiled* (without salt)",

@@ -116,15 +116,15 @@ UNKNOWN
  - cucurbit curry (cucurbit, hilsha, turmeric, vchili, salt)																									
  - cucurbit curry (oil, onion, shrimp fish)																									
  - cucurbit(1 pcs water (1 glass)																									
- - curry																									
+																			
  - curry ( potato, salt, turmeric, chili, oil, arum)																									
 																								
 																							
 																								
 																							
 																								
- - curry (fish, potato,turmeric,chili,cumin,soyabean oil)																									
- - curry (fried eggs, gourd, pulse)																									
+																								
+																						
 																																															
 																								
 																								
@@ -159,10 +159,10 @@ UNKNOWN
 																								
  - dried fish (potato, pumpkin leaves,onion,turmeric,chili,coriander leaves) water (1 glass)																									
  - dried fish (potato, vegetable stem)																									
- - dried fish (potato,tomato,coriander leaves,green chili)																									
+																							
 																																															
  																								
- - dried fish (vegetable leaf potato)																									
+																							
  - dried fish curry (1 spoon)																									
  - dried fish curry (dry fish, coriander leaves, oil, salt)																									
  - dried fish curry (oil, salt, dry fish)																									
@@ -253,12 +253,11 @@ UNKNOWN
  - fried peas (1 packet)																									
  - fried peas(1 pack)																									
  - fried peas(1 packet)																									
- - fried potato (1 bowl)																									
+																								
 																									
 																							
 																								
-																								
- - fried potato( turmeric, chili, coriander leaves, onion, soyabean oil, garam masala)																									
+																																															
 																								
  - fried puffed rice (onion, chili)																									
  - fried pulse (onion, pulse)																									
@@ -514,10 +513,6 @@ UNKNOWN
  - pigeon pea fry (1 pack)																									
  - piyaju (1 pcs)																									
  - plum cake(oil,flour)	
-
-																									
- 
-
  - pointed gourd curry (onion																									
  - polao																									
  - polao (1 plate)																									
@@ -618,7 +613,6 @@ UNKNOWN
  - sauce (1 pack)																									
  - semolina cake																									
  - shabudana ( half bowl)	
-
  - shing fish																									
  - shing fish (pulse)																									
  - shrimp curry (potato)																									
