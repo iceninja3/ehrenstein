@@ -1,12 +1,21 @@
 dish_mappings = {
     "fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
+    "hilsha fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "small fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "chicken curry": ["chicken", "onion", "garlic", "ginger", "chilli"],
     "potato curry": ["potato", "chilli", "tumeric", "onion", "oil", "mustard oil"],
     "potato vegetable": ["potato", "chilli", "tumeric", "onion", "oil", "mustard oil"],
     "smashed potato": ["beef", "potato", "onion", "tumeric", "oil", "chilli"],
+    "fruits": ["orange", "apple"],
+    "burger": ["bread", "meat"],
+    "cabbage curry": ["cabbage", "chilli", "tumeric", "onion", "oil"],
+    "carrot curry": ["carrot", "chilli", "tumeric", "onion", "oil"],
+    "cauliflower curry": ["cauliflower", "chilli", "tumeric", "onion", "oil"],
     "potato chops": ["potato", "onion", "green chilli", "oil"],
     "potato fry": ["potato", "onion", "chilli", "oil"],
+    "cauliflower fry": ["potato", "onion", "chilli", "oil"],
+    "brinjal fry": ["potato", "onion", "chilli", "oil"],
+     "fried potato": ["potato", "onion", "chilli", "oil"],
     "mix fry": ["chicken", "potato", "pointed gourd", "oil", "pukse"],
      "doom fry": ["chicken", "potato", "pointed gourd", "oil", "pukse", "e2ij"],
     "egg fry": ["egg", "tomato", "green chilli", "onion", "tumeric", "oil"],
@@ -16,6 +25,8 @@ dish_mappings = {
     "vegetable": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric"],
     "vegetable curry": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric", "bean"],
     "vegetable fry": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric", "bean"],
+    "egg curry": ["egg", "potato", "onion", "spice", "tumeric", "chilli", "salt"],
+	
     "samosas": ["potatos", "carrots", "onion", "oil", "green chilli"],
     "salad": ["tomato", "cucumber", "onion", "radish", "ginger"],
     "condiment": ["green chilli", "coriander"],
@@ -23,5 +34,13 @@ dish_mappings = {
     "pitha": ["milk", "rice powder", "jaggery", "payesh"],
     "pitha - pati sapta": ["rice flour", "sugar", "milk"],
     "water lilly fry": ["black cumin", "soybean oil", "onion", "water lily", "chilli"],
-    "water lilly curry": ["black cumin", "soybean oil", "onion", "water lily", "chilli"]
+    "water lilly curry": ["black cumin", "soybean oil", "onion", "water lily", "chilli"],
+    "fried brinjal": ["brinjal", "chilli", "oil", "onion"],
+    "fried cabbage": ["cabbage", "chilli", "oil", "coriander leaves"],
+    
+    "fried fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
+    "hilsha fish fry": ["oil", "hilsha", "salt", "chilli", "onion"],
+    "fried hilsha fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
+    "curry": ["turmeric", "chilli", "salt", "coriander leaves", "potato", "onion", "hilsha"],
+
 }

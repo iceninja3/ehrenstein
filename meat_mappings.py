@@ -12,7 +12,7 @@ fish_meat_table = {
 
     "barb": "Barb, Pool barb, raw",
     "putae fish": "Barb, Pool barb, raw",																							
- -  "puti fish": "Barb, Pool barb, raw",
+    "puti fish": "Barb, Pool barb, raw",
     "olive barb": "Barb, Olive, raw",
     "raw olive barb": "Barb, Olive, raw",
     "boneless olive barb": "Barb, Olive, without bones, raw",
@@ -41,12 +41,14 @@ fish_meat_table = {
     "bacha catfish": "Catfish, Bacha, raw",
     "raw bacha catfish": "Catfish, Bacha, raw",
     "yellowtail catfish": "Catfish, Bacha, raw",
+    "fish-yellowtail catfish": "Catfish, Bacha, raw",
     
 
     "pabda catfish": "Catfish, Pabda, raw",
     "raw pabda catfish": "Catfish, Pabda, raw",
 
     "catla": "Catla, raw",
+    "catla fish": "Catla, raw",
     "raw catla": "Catla, raw",
     #table 54 
 
@@ -145,7 +147,10 @@ fish_meat_table = {
     "raw banded gourami": "Gourami, Banded gourami, eyes included, raw",
 
     "shoreshe hilsha": "Hilsha, without bones, raw",
+    "fish": "Hilsha, without bones, raw",
     "hilsha": "Hilsha, without bones, raw",
+    "hilsha fish": "Hilsha, without bones, raw",
+    "dried fish": "Hilsha, without bones, raw",
     "raw hilsha": "Hilsha, without bones, raw",
     "boneless hilsha": "Hilsha, without bones, raw",
     "ilish": "Hilsha, without bones, raw",
@@ -237,11 +242,12 @@ fish_meat_table = {
     "raw mussel": "Mussel/Clam, mixed species, raw",
     "raw clam": "Mussel/Clam, mixed species, raw",
     "oyster": "Mussel/Clam, mixed species, raw",
-    "fish": "Pangas, without bones, raw",
+
     "small fish": "Pangas, without bones, raw",
     "big fish": "Pangas, without bones, raw",
     "medium fish": "Pangas, without bones, raw",
     "pangas": "Pangas, without bones, raw",
+    "pangas fish": "Pangas, without bones, raw",
     "boneless pangas": "Pangas, without bones, raw",
     "raw pangas": "Pangas, without bones, raw",
     "raw boneless pangas": "Pangas, without bones, raw",

@@ -409,7 +409,7 @@ ingredient_categories = {
     "Rice, white, sunned, aromatic, raw": "nonprotein",
     "Rice, white, sunned, polished, milled, raw": "nonprotein",
     "Sweetcorn, yellow, on the cob, raw": "nonprotein",
-    "Wheat, flour, white": "nonprotein",
+    "Wheat, flour, white": "garnish",
     "Bengal gram, whole dried, raw": "nonprotein",
     "Green gram, split dried, raw": "nonprotein",
     "Green gram, whole, dried, raw": "nonprotein",

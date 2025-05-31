@@ -1,21 +1,17 @@
 UNKNOWN																					
- - brinjal fry(onion, chilli, soybean oil)																									
+																							
  - broth of meat (1 spoon)																									
- - burger																									
- - burger (2 pcs)																									
+																									
  - burned chicken																									
  - cabbage chop (gram flour, salt, sugar, turmeric)																									
- - cabbage curry (1 spoon)																									
- - cabbage curry (half bowl)																									
+																					
+																								
  - carambola pickle (carambola, chili, salt, sugar)																									
- - carrot curry (oil, onion, chilli)																									
- - carrot curry (onion, oil, chilli)																									
+																								
  - cassia leaf																									
  - catla fish (hyacinth bean, potato, cauliflower)																									
  - cauliflower chop (gram flour, salt, sugar)																									
- - cauliflower curry (potato, cauliflower)																									
- - cauliflower curry (potato, cumin, oil)																									
- - cauliflower fry( salt, chili, onion, corionder leaves)																									
+																							
  - center-fruit(1 pc)																									
  - centerfruit																									
  - centerfruit chocolate																									
@@ -122,68 +118,50 @@ UNKNOWN
  - cucurbit(1 pcs water (1 glass)																									
  - curry																									
  - curry ( potato, salt, turmeric, chili, oil, arum)																									
- - curry (brinjal,bean,coriander leaves)																									
- - curry (cucumber,potato,coriander leaves,chili,raddish)																									
- - curry (egg, potato,tomato)																									
- - curry (egg,potato,spice)																									
- - curry (fish, potato, bean)																									
+																								
+																							
+																								
+																							
+																								
  - curry (fish, potato,turmeric,chili,cumin,soyabean oil)																									
  - curry (fried eggs, gourd, pulse)																									
- - curry (oil, onion, garlic, potato)																									
- - curry (onion, chilli, coriander leaf, oil)																									
- - curry (onion,chili,oil,coriander leaves)																									
- - curry (pangash fish, cauliflower, potato, turmeric, cumin, coriander leaves, spices)																									
- - curry (potato, bean, onion)																									
- - curry (potato, cabbage)																									
- - curry (potato, oil, flour, condiment)																									
- - curry (potato, vegetable leaf, oil, turmeric, condiment)																									
- - curry (potato, vegetable leaf, pulse, chilli, oil, turmeric, condiment)																									
- - curry (potato,bean,coriander leaves)																									
- - curry (potato,coriander leaves)																									
- - curry (potato,coriander leaves,oil)																									
- - curry (potato,fish,spice)																									
- - curry (potato,meat,oil,spice)																									
- - curry (potato,raddish, coriander leaves, green chili)																									
- - curry (potato,tomato)																									
- - curry (pulse, potato, turmeric)																									
- - curry (pumpkin, potato,turmeric, oil, chili)																									
- - curry (raddish, coriander leaves, green chili, turmeric, chili, salt)																									
- - curry (red spinach, potato,onion,salt,oil,spices)																									
- - curry( potato, oil, turmeric, gourd, garlic, onion)																									
- - curry(bean,turmeric,chili,leaves,water,salt)																									
- - curry(brinjal,turmeric,chili,leaves,water,salt)																									
- - curry(potato,bean)																									
- - curry(potato,soybean)																									
- - curry(soy bean,potato)																									
- - curry(tomato,turmeric,chili,leaves,water,salt)																									
- - curry(turmeric,chili,salt,coriander leaves,hilsha fish)																									
- - curry(turmeric,chili,salt,coriander leaves,hilsha fish,tomato,potato)																									
- - curry(turmeric,chili,salt,coriander leaves,rui fish,potato,bean)																									
- - curry(turmeric,chili,salt,coriander leaves,tomato,potato,hilsha fish)																									
- - danish biscuit (5 pcs)																									
- - date jaggery (1 pcs)																									
- - deird fish (bean, chilli, turmeric, salt, coriander leaf)																									
+																																															
+																								
+																								
+																																		
+																								
+																								
+																						
+																																											
+																							
+																								
+																							
+																							
+																							
+																								
+																							
+																							
+																							
+																								
+																							
+																																																	
+ 																								
+																								
  - dessert																									
- - dried fish																									
- - dried fish (2 spoon)																									
- - dried fish (3 spoon)																									
- - dried fish (4 spoon)																									
+																							
+																							
  - dried fish (bean,potato,tomato,onion leaves, black brinjal,green chili)																									
- - dried fish (chilli, condiment, onion, salt, coriander leaf)																									
- - dried fish (malabar spinach, potato, onion, oil)																									
- - dried fish (onion)																									
- - dried fish (onion, garlic, chilli, oil)																									
- - dried fish (onion, turmeric, chilli, coriander leaf)																									
- - dried fish (potato, bean)																									
+																							
+																																																																							
+ 																									
  - dried fish (potato, black brinjal) water (2 glasses)																									
- - dried fish (potato, condiment)																									
- - dried fish (potato, pumpkin leaves,onion,garlic,oil)																									
+																								
+																								
  - dried fish (potato, pumpkin leaves,onion,turmeric,chili,coriander leaves) water (1 glass)																									
  - dried fish (potato, vegetable stem)																									
  - dried fish (potato,tomato,coriander leaves,green chili)																									
- - dried fish (red amaranth, onion, garlic, coriander leaf, soybean oil)																									
- - dried fish (spinach,potato,chili,garlic,shrimp,oil)																									
- - dried fish (tomato,bean,green chili,coriander leaves,oil)																									
+																																															
+ 																								
  - dried fish (vegetable leaf potato)																									
  - dried fish curry (1 spoon)																									
  - dried fish curry (dry fish, coriander leaves, oil, salt)																									
@@ -201,22 +179,15 @@ UNKNOWN
  - duck curry (potato, turmeric, chilli,oil)																									
  - egg broth ( potato, garam masala,salt,turmeric, chili)																									
  - egg cake																									
- - egg curry																									
- - egg curry ( 2 spoon)																									
- - egg curry ( onion, oil, condiment)																									
- - egg curry (coconut,oil)																									
- - egg curry (egg, potato, onion, garlic, spice, turmeric, chili, salt)																									
- - egg curry (onion, green chili, oil)																									
- - egg curry (potato)																									
- - egg curry (potato, chili, onion, turmaric)																									
- - egg curry (potato, chili,oil,coriander leaves,turmeric)																									
- - egg curry (potato, coriander leaf, onion, oil)																									
- - egg curry (potato, egg, onion)																									
- - egg curry (potato, oil, condiment)																									
+																							
+																								
+																						
+																																															
+																								
+																								
+																							
  - egg curry (potato, oil, turmeric, chilli,) water (2 glass)																									
- - egg curry (potato, onion, chilli, turmeric, oil, salt)																									
- - egg curry (potato, papaya, oil, condiment)																									
- - egg curry (tomato, oil, spice)																									
+																							
  - elephant apple pickle (2 pcs)																									
  - elephant apple pickle (5 spoon)																									
  - elephant apple pickle (chilli, sugar, pach phoron, salt)																									
@@ -238,8 +209,7 @@ UNKNOWN
  - fish egg curry (bringal, onion, oil, condiment)																									
  - fish egg pakoda																									
  - fish fries (onion, green chili, coriander leaves,ginger)																									
- - fish vegetable (onion,ginger,chili,coriander leaves)																									
- - fish-yellowtail catfish (onion, oil, salt)																									
+ - fish vegetable (onion,ginger,chili,coriander leaves)																																																	
  - flagyl (400)																									
  - flat bread																									
  - flat bread (1																									
@@ -251,44 +221,30 @@ UNKNOWN
  - flat bread (flour,water)																									
  - flat bread (flour,water,salt)																									
  - flattened																									
- - flattened rice																									
- - flattened rice (1 spoon)																									
- - flattened rice (half bowl)																									
+																								
  - flattened rice laddu (1 pcs)																									
  - flour																									
  - fried bean (bean, tomato)																									
  - fried bittermelon (1 spoon)																									
- - fried bringal (turmeric, chili, salt, soyabean oil)																									
+																							
  - fried bringle																									
- - fried brinjal																									
- - fried brinjal (brinjal,potato,chili,oil)																									
- - fried brinjal (chili, oil)																									
- - fried brinjal (coriander leaves, chili)																									
- - fried brinjal (oil,onion,chili)																									
- - fried brinjal (onion,chili,coriander leaves,oil)																									
- - fried brinjal (onion,green chili,soyabean oil, coriander leaves)																									
- - fried brinjal (potato, brinjal)																									
- - fried brinjal (spice, oil)																									
- - fried brinjal (turmeric, salt, oil)																									
- - fried cabbage (cabbage, chili, coriander leaves, potato, oil)																									
- - fried cabbage (cabbage, green chili, oil, garlic, onion, , potato, tomato, coriander leaves)																									
- - fried cabbage (cabbage, onion, tomato, oil, green chili)																									
- - fried cabbage (cabbage, tomato, coriander leaves, oil)																									
+																								
+																							
+																							
+																								
+																								 																								
+																																																
+ 																								
+ 
+ 																								
  - fried cauliflower																									
  - fried chicken (1 pcs)																									
  - fried chickpea																									
  - fried cucurbit (cucurbit, green chili, oil)																									
  - fried cucurbit (cucurbit, oil, chili)																									
  - fried dal (1 pack)																									
- - fried fish																									
- - fried fish (1 pcs)																									
- - fried fish (coriander leaves, ginger, chili, cumin)																									
- - fried fish (oil, salt, chili, coriander leaves, onion)																									
- - fried fish (oil, salt, potato, tomato, garlic, coriander leaves, turmeric, chili)																									
- - fried fish (onion,green chili,tomato,coriander leaves,soyabean oil)																									
- - fried fish(turmeric,salt)																									
- - fried hilsha fish																									
- - fried hilsha fish (oil,onion)																									
+																																																	
+																																							
  - fried ladis finger ( onion, chili, oil)																									
  - fried ladis finger (1 spoon)																									
  - fried pea seeds (1 pac)																									
@@ -298,18 +254,12 @@ UNKNOWN
  - fried peas(1 pack)																									
  - fried peas(1 packet)																									
  - fried potato (1 bowl)																									
- - fried potato (onion, chili, oil)																									
- - fried potato (potato, brinjal)																									
- - fried potato (potato, chili, coriander leaves)																									
- - fried potato (potato, coriander leaves, oil)																									
- - fried potato (potato, oil, onion)																									
- - fried potato (potato,chili,oil,carrot,onion)																									
- - fried potato (salt, chili, coriander leaves)																									
- - fried potato (turmeric, chili, oil)																									
- - fried potato( turmeric, chili, coriander leaves, onion, soyabean oil)																									
+																									
+																							
+																								
+																								
  - fried potato( turmeric, chili, coriander leaves, onion, soyabean oil, garam masala)																									
- - fried potato(3pcs)																									
- - fried potato(soyabean oil, turmeric, chili)																									
+																								
  - fried puffed rice (onion, chili)																									
  - fried pulse (onion, pulse)																									
  - fried pulse (pulse, salt, turmeric, oil)																									
@@ -327,8 +277,7 @@ UNKNOWN
  - fried telapia fish																									
  - fried tomato (tomato, onion, chili, oil)																									
  - fruit jelly(1 spoon)																									
- - fruits																									
- - fruits (orange, apple)																									
+																																															
  - fruto ( 1 pc)																									
  - fry ( green pepper, turmeric, chili)																									
  - fry (half bowl)																									
@@ -383,25 +332,17 @@ UNKNOWN
  - halwa (samolina, sugar, salt, milk, soybean oil)																									
  - halwa(puffed rice, sugar)																									
  - hello biscuit																									
- - hilsha fish																									
- - hilsha fish (1 pc)																									
- - hilsha fish (1 pcs)																									
- - hilsha fish (1pc)																									
- - hilsha fish (asparagus bean, potato, oil, onion)																									
- - hilsha fish (cauliflower, potato, salt, tomato,turmeric,chili)																									
- - hilsha fish (mustard, coconut)																									
- - hilsha fish (onion, oil)																									
- - hilsha fish (potato,oil,spices,bean)																									
+																								
+																							
+																																													
+																							
  - hilsha fish bhuna(onion,green chili,ginger,coriander leaves,soyabean oil)																									
  - hilsha fish curry (oil, coriander leaves, ginger, garlic, green pepper)																									
- - hilsha fish fry (oil)																									
- - hilsha fish fry (oil, salt)																									
- - hisha fish (1 pcs)																									
+																								
+																								
  - homeo medicine																									
  - horlicks (3spoons)																									
- - hyacinth																									
- - hyacinth bean																									
- - hyacinth bean seed																									
+																									
  - ice cream																									
  - ice-cream																									
  - ice-cream (1 bowl)																									
@@ -415,8 +356,7 @@ UNKNOWN
  - jamai pitha																									
  - juice (1 glass) water (1 glass)																									
  - jujube fruit																									
- - katla fish																									
- - katla fish (1pc)																									
+																								
  - khadai (coconut, cardamon, jaggery, )water (1 glass)																									
  - khadai (onion, condiment)																									
  - khichuri (pulse,rice,oil,onion,chicken)																									
@@ -556,26 +496,13 @@ UNKNOWN
  - peyaju (3 pcs)																									
  - peyaju (5 pcs)																									
  - peyaju (soybean oil)																									
- - piaju (1 pcs)																									
- - pickle																									
- - pickle (1 bowl)																									
- - pickle (1 pac)																									
- - pickle (1 pack)																									
- - pickle (1 pcs)																									
- - pickle (1 plate)																									
- - pickle (1 spoon)																									
- - pickle (1.5 bowl) water (1 glass)																									
- - pickle (2 spoon)																									
- - pickle (3 spoon)																									
- - pickle (4 spoon)																									
+ - piaju (1 pcs)																																																	
  - pickle (chili, vinegar, spices)																									
  - pickle (condiment)																									
  - pickle (elephant apple, tamarind)																									
  - pickle (elephant apple,sugar,chili flacks,mustard oil)																									
  - pickle (elephant plant,salt,black salt,sugar)																									
- - pickle (half bowl																									
- - pickle (half bowl)																									
- - pickle (half plate)																									
+ - pickle (half bowl																																																	
  - pickle (oil, salt, chilli, turmeric, sesame, coconut)																									
  - pickle (olive)																									
  - pickle (olive, elephant apple, coconut, sugar, turmeric, salt, chilli, oil)																									

@@ -279,10 +279,10 @@ for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
 
 df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
 print("Cleaning complete.")
-print(clean_food_entry("chicken curry (1 pcs)"))
+print(clean_food_entry("fried pulse (pulse, salt, turmeric, oil)"))
 #we will make a list of unknown items to append to the 
-if unknown_itemsed:
-    print("\n UNKNOWN items found:")
-    for item in sorted(unknown_itemsed):
-        print(f" - {item}")
+# if unknown_itemsed:
+#     print("\n UNKNOWN items found:")
+#     for item in sorted(unknown_itemsed):
+#         print(f" - {item}")
 
