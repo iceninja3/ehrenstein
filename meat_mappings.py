@@ -11,6 +11,7 @@ fish_meat_table = {
     "raw scaly hairfin anchovy": "Anchovy, Scaly hairfin, raw",
 
     "barb": "Barb, Pool barb, raw",
+    "swamp barb": "Barb, Pool barb, raw",
     "putae fish": "Barb, Pool barb, raw",																							
     "puti fish": "Barb, Pool barb, raw",
     "olive barb": "Barb, Olive, raw",
@@ -36,6 +37,8 @@ fish_meat_table = {
     "boneless calbasu": "Calbasu, without bones, raw",
 
     "catfish": "Catfish, Bacha, raw",
+    "painted catfish": "Catfish, Bacha, raw",
+     "shing fish": "Catfish, Bacha, raw",
     "pointed catfish": "Catfish, Bacha, raw",
     "raw catfish": "Catfish, Bacha, raw",
     "bacha catfish": "Catfish, Bacha, raw",
@@ -79,7 +82,9 @@ fish_meat_table = {
     "boneless common carp": "Common carp, without bones, raw",
 
     "black spotted croaker": "Croaker, Black spotted, without bones, raw",
+    "poya fish": "Croaker, Black spotted, without bones, raw",
     "croaker": "Croaker, Black spotted, without bones, raw",
+    "panna croaker fish": "Croaker, Black spotted, without bones, raw",
     "poa fish": "Croaker, Black spotted, without bones, raw",
     "raw croaker": "Croaker, Black spotted, without bones, raw",
     "raw black spotted croaker": "Croaker, Black spotted, without bones, raw",
@@ -148,6 +153,7 @@ fish_meat_table = {
 
     "shoreshe hilsha": "Hilsha, without bones, raw",
     "fish": "Hilsha, without bones, raw",
+    "dried loitta fish": "Hilsha, without bones, raw",
     "hilsha": "Hilsha, without bones, raw",
     "hilsha fish": "Hilsha, without bones, raw",
     "dried fish": "Hilsha, without bones, raw",
@@ -222,6 +228,7 @@ fish_meat_table = {
     "raw razorbelly minnow": "Minnow, Large scale razorbelly, raw",
 
     "mola carplet": "Mola carplet, whole, eyes included, raw",
+    "mola fish": "Mola carplet, whole, eyes included, raw",
     "carplet": "Mola carplet, whole, eyes included, raw",
     "raw mola carplet": "Mola carplet, whole, eyes included, raw",
 
@@ -273,12 +280,14 @@ fish_meat_table = {
     "boneless silver pomfret": "Pomfret, Silver, without bones, raw",
 
     "river prawn": "Prawn, Birma river prawn, raw",
+    "small prawn": "Prawn, Birma river prawn, raw",
     "birma river prawn": "Prawn, Birma river prawn, raw",
     "raw birma river prawn": "Prawn, Birma river prawn, raw",
 
     "giant river prawn": "Prawn, Giant river prawn, raw",
     "raw giant river prawn": "Prawn, Giant river prawn, raw",
     "prawn": "Prawn, Giant tiger prawn, raw",
+    
     "giant tiger prawn": "Prawn, Giant tiger prawn, raw",
     "tiger prawn": "Prawn, Giant tiger prawn, raw",
     "raw giant tiger prawn": "Prawn, Giant tiger prawn, raw",
@@ -308,6 +317,7 @@ fish_meat_table = {
 
     "speckled shrimp": "Shrimp, Speckled, raw",
     "shrimp": "Shrimp, Speckled, raw",
+    "small shrimp": "Shrimp, Speckled, raw",
     "raw shrimp": "Shrimp, Speckled, raw",
     "raw speckled shrimp": "Shrimp, Speckled, raw",
 
@@ -322,6 +332,7 @@ fish_meat_table = {
 
     "spotted snakehead": "Spotted snakehead, raw",
     "snakehead": "Spotted snakehead, raw",
+    "chaiya fish": "Spotted snakehead, raw",
     "raw spotted snakehead": "Spotted snakehead, raw",
     "raw snakehead": "Spotted snakehead, raw",
 
@@ -356,6 +367,7 @@ fish_meat_table = {
     "beef liver": "Beef liver, raw",
     "raw beef liver": "Beef liver, raw",
      "meat": "Beef, meat, lean, boneless, raw",
+      "cow stomach": "Beef, meat, lean, boneless, raw",
 
     "beef": "Beef, meat, lean, boneless, raw",
     "lean beef": "Beef, meat, lean, boneless, raw",
@@ -387,6 +399,8 @@ fish_meat_table = {
 
     "chicken leg": "Chicken leg, without skin, raw",
     "chicken": "Chicken leg, without skin, raw",
+    "poultry meat": "Chicken leg, without skin, raw",
+    "chicken meat": "Chicken leg, without skin, raw",
     "burned chicken": "Chicken leg, without skin, raw",
     "chicken drumstick": "Chicken leg, without skin, raw",
     "boneless chicken leg": "Chicken leg, without skin, raw",

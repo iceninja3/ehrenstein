@@ -114,57 +114,71 @@ def clean_food_entry(original_entry, quantity_text=None):
     if pd.isna(original_entry):
         return "", ""
     original_entry = re.sub(r"\[.*?\]", "", original_entry)
+    entry_lower = original_entry.strip().lower()
 
-    def expand_parentheticals(entry):
-        pattern = re.compile(r"([\w\s]+?)\s*\(([^)]+)\)")
+    # Step 1: Expand parentheticals with dish logic
+    def expand_parentheticals(entry):  # handles our () contents
+        pattern = re.compile(r"([\w\s]+?)\s*\(([^)]+)\)")  # splits contents into what is in the () and what is outside them 
+
         def replace_fn(match):
             base = match.group(1).strip().lower()
             inside = match.group(2).strip().lower()
-            inside_items = [item.strip() for item in inside.split(",") if item.strip()]
+            itemsList = inside.split(",")
+            inside_items = []
+            for item in itemsList:
+                cleaned = item.strip()
+                if cleaned: 
+                    inside_items.append(cleaned)
 
-            matched_dish_key = fuzzy_match_key(base, dish_mappings)
-            matched_dish = dish_mappings.get(matched_dish_key) if matched_dish_key else None
+            # Dish-based logic
+            matched_dish = next((dish for dish in dish_mappings if dish.lower() == base.lower()), None)
+            
+            if not matched_dish:
+                matched_dish = fuzzy_match_key(base, dish_mappings)
 
             if matched_dish:
+                
                 if len(inside_items) < NUM_ITEMS_NECESSARY_TO_EXPAND:
-                    return ", ".join(matched_dish)
+                    return ", ".join(dish_mappings[matched_dish])
+
+                
                 matched_ingredient = next(
                     (ing for ing in list(food_mappings) + list(fish_meat_table)
                      if ing in base and ing not in inside_items),
                     None
                 )
+
                 seen = set()
                 combined = []
+
                 if matched_ingredient:
                     combined.append(matched_ingredient)
                     seen.add(matched_ingredient)
+
                 for item in inside_items:
                     if item not in seen:
                         combined.append(item)
                         seen.add(item)
-                return ", ".join(combined)
 
-            # Food/fish mappings
-            matched_key = fuzzy_match_key(base, food_mappings) or fuzzy_match_key(base, fish_meat_table)
-            matched_name = food_mappings.get(matched_key) or fish_meat_table.get(matched_key) if matched_key else None
-
-            if matched_name:
-                seen = set()
-                combined = []
-                if matched_key and matched_key not in inside_items:
-                    combined.append(matched_key)
-                    seen.add(matched_key)
-                for item in inside_items:
-                    if item not in seen:
-                        combined.append(item)
-                        seen.add(item)
                 return ", ".join(combined)
+            matched_base = (
+            food_mappings.get(base)
+            or fish_meat_table.get(base)
+            or fuzzy_match(base, food_mappings)
+            or fuzzy_match(base, fish_meat_table)
+            )
+
+            if matched_base:
+                is_quantity = any(unit in inside.lower() for unit in baseWeights)
+                if not is_quantity:
+                    return f"{base}, {', '.join(inside_items)}"
 
             return match.group(0)
 
         return pattern.sub(replace_fn, entry.lower())
 
     original_entry = expand_parentheticals(original_entry)
+
 
     # Step 2: Split and clean individual food items
     food_items = re.split(r"\swith\s|\sand\s|,(?![^()]*\))", original_entry)
@@ -176,19 +190,24 @@ def clean_food_entry(original_entry, quantity_text=None):
     i = 0
     while i < len(food_items):
         item = food_items[i].strip().lower()
+        
         base_item = re.sub(r"\s*\(.*?\)", "", item).strip()
         matched_dish = dish_mappings.get(base_item)
         if not matched_dish:
             matched_dish = dish_mappings.get(fuzzy_match_key(base_item, dish_mappings))
+   
 
         if matched_dish:
             food_items[i:i+1] = matched_dish  # replace in place
+            
             continue  # re-check current index
         else:
             weight, unit, quantity_str = extract_quantity(item)
             matching_item = re.sub(r"\(.*?\)", "", item).strip().lower()
+
             matched_food = food_mappings.get(matching_item, fuzzy_match(matching_item, food_mappings))
             matched_fish_meat = fish_meat_table.get(matching_item, fuzzy_match(matching_item, fish_meat_table))
+ 
             cleaned_name = matched_fish_meat or matched_food
             category = ingredient_categories.get(cleaned_name, None)
 
@@ -273,7 +292,7 @@ for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
 
 df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
 print("Cleaning complete.")
-print(clean_food_entry("pulse chop (pulse, water lilly, chilli, soybean oil)"))
+print(clean_food_entry("pan croaker fish (89 pcs), tomato (10 pcs), chicken curry (1 bowl)"))
 #we will make a list of unknown items to append to the 
 # if unknown_itemsed:
 #     print("\n UNKNOWN items found:")
