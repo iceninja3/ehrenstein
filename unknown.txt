@@ -1,18 +1,15 @@
-UNKNOWN																																											
- - broth of meat (1 spoon)																																																													
+UNKNOWN																																																																																																								
  - carambola pickle (carambola, chili, salt, sugar)																															
  - center-fruit(1 pc)																									
  - centerfruit																									
  - centerfruit chocolate																									
  - centre fruit (1 pcs)																									
  - centrefruit (1 pcs)																									
- - cetrefruit (1 pcs)																																																																					
- - chapti (tomato, coriander leaf, green chilli, oil, flour)																																																	
+ - cetrefruit (1 pcs)																																																																																																																						
  - chewing gum																									
  - chewing-gum (1 pcs)																									
  - chewingum (1 pcs)																									
- - chewingum (center fruit)																																																																									
- - chicken soup (1 spoon)																																																																								
+ - chewingum (center fruit)																																																																		
  - chips (1 pack) water (2 glass)														
  - chitoi pitha (1 pcs)																									
  - chocolate																									
@@ -40,43 +37,26 @@ UNKNOWN
  - curry ( potato, salt, turmeric, chili, oil, arum)																																								
  - dessert																																													
  - dried fish (bean,potato,tomato,onion leaves, black brinjal,green chili)												
- - drowry milk chocolate																																																																						
- - egg broth ( potato, garam masala,salt,turmeric, chili)																																														
+ - drowry milk chocolate																																																																																																																		
  - elephant apple pickle (2 pcs)																									
  - elephant apple pickle (5 spoon)																									
  - elephant apple pickle (chilli, sugar, pach phoron, salt)																									
  - elephant apple pickle (salt, chilli)																									
  - elephant plant																																																																									
  - fied peanuts																																																																				
- - fish broth																									
- - fish broth (fish, potato,tomato,oil,chili,turmeric,salt,water,spices,coriander leaves,black seeds)       																									
- - fish broth (unripe banana, spices)																									
- - fish chop (1 pcs)																									
+																									
  - fish egg (half bowl)																									
  - fish egg (onion, tomato, soybean oil)																									
  - fish egg curry (bringal, onion, oil, condiment)																									
  - fish egg pakoda																																																	
  - fish vegetable (onion,ginger,chili,coriander leaves)																																																	
- - flagyl (400)																																																		
- - flattened																					
+ - flagyl (400)																																																																					
  - flattened rice laddu (1 pcs)																																			
  - fried rui fish															
  - fruit jelly(1 spoon)																																										
  - fruto ( 1 pc)																												
  - fuchka (pulse, egg, green chili, chili, coriander leaves, salad, tamarind pickle)																																																																																																																																																																																																			
- - green papaya (one third pcs)																									
- - green paper																									
- - green pepper																																							
- - halim																									
- - halim (1 plate)																									
- - halim (condiment, bovine stomach)																									
- - halua (1 spoon)																									
- - halua (semolina,milk,water)																									
- - halua (sugar, milk, water, berly)																									
- - halwa (half cup)																									
- - halwa (one																									
- - halwa (samolina, sugar, salt, milk, soybean oil)																									
- - halwa(puffed rice, sugar)																																																												
+ - green papaya (one third pcs)																																																					
  - homeo medicine																									
  - horlicks (3spoons)																																																																																											
  - khadai (coconut, cardamon, jaggery, )water (1 glass)																									
@@ -100,10 +80,8 @@ UNKNOWN
  - mango pickle (1 bowl)																									
  - mango pickle (2 pcs)																																																																									
  - mashed item																																																		
- - meat broth																									
- - meat broth (2 spoons)																									
- - meat broth (potato)																																									
- - meat soup (oil, turmeric, chilli, condiment)																																																		
+																																								
+																																																	
  - medicin (ometid)																									
  - medicine (pantonine)																									
  - meni fish curry ( potato, cauliflower, turmeric, chilli, coriander leaf)																									
@@ -129,10 +107,7 @@ UNKNOWN
  - olive(chili,salt)																									
  - oliver																																																																										
  - opickle (1 pac)																																																	
- - pakoda																									
- - pakoda (onion,turmeric,salt,pulse)																									
- - pakoda (raddish,rice flour)																									
- - pakora																									
+																																																	
  - palm																									
  - palm (1 cup)																									
  - palm (1 table spoon)																									
@@ -156,30 +131,22 @@ UNKNOWN
  - pickles (1 pack)																									
  - pickles (mango, elephant apple)																																		
  - piyaju (1 pcs)																																									
- - potato leaf (one																									
- - potato soup (cumin, oil, coriander leaf)																																																																		
- - proshad (half bowl)																																																																																																																																																																																		
- - pulse pakoda																									
- - pulse pakoda (black seed,oil,onion,green chili)																									
+																																																																	
+ - proshad (half bowl)																																																																																																																																																																																																										
 																																																
  - puri(1pc0																																														
  - raisin (1 spoon)																									
- - rasaw malai (5 spoon)																									
- - rasmalai (1 spoon)																									
- - rasmalai (2 spoon)																		
+																									
+																	
  - role (flour, vegetables)																																															
  - saltwater																																																		
  - sapodilla (1 pcs)																									
  - sauce																									
  - sauce (1 pack)																									
- - semolina cake																									
+																									
  - shabudana ( half bowl)																									
- - shrimp fish curry ( onion, salt, potato, chili, turmeric)																																												
  - small fish+ bottle guard ( 1 bowl)																																																																						
- - smashed olive (salt, chilli)																																																																																																																									
- - snake gourd (onion																																																																																																																							
- - soup (potato, onion, oil, salt)																									
- - soup (potato, pulse, condiment)																									
+ - smashed olive (salt, chilli)																		
  - sour (coconut, cumin)																									
  - sour (fish, green pepper, tomato, turmeric. chili)																									
  - sour (rice juice, tomato, coriander leaves, green chili, turmeric, salt)																									
@@ -198,7 +165,6 @@ UNKNOWN
  - tikka (cow belly)																	
  - tok (olive, coriander leaf, green chilli, turmaric, onion, garlic)																																																																																													
  - tomato sour curry																																															
- - turmeric.chili																				
- - vegetable soup (potato, oil, chilli, turmeric)																																																																																																																																				
+ - turmeric.chili																																																																																																																																	
  - whole day																									
  - whole day water 4 glass																																										

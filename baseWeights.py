@@ -7,6 +7,7 @@ baseWeights = {
     "bowl": 400,
     "saucer": 350,
     "spoon": 100,
+    "spoos": 100,
     "tablespoon": 1000,
     "teaspoon": 75, 
     "tea spoon": 75, 

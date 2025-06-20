@@ -1,7 +1,11 @@
 dish_mappings = {
     "somucha": ["meat", "onion", "flour", "oil", "peas", "chilli", "coriander leaves"],
     "chips": ["potato", "oil"],
+    "pulse pakoda": ["pulse", "onion", "green chilli", "cumin seeds", "oil"],
+    "pakoda": ["pulse", "onion", "green chilli", "cumin seeds", "oil"],
     "smoothie": ["banana", "mango", "milk"],
+    "halwa": ["semolina", "nutmeg", "jaggery", "nut", "ghee"],
+    "halim": ["beef", "coriander seeds", "onion", "chilli"],
     #flour, potato, salt, oil, chilli, turmeric)	
     "vegetable bun": ["potato", "salt", "oil", "chilli", "tumeric", "bread"],
     "pulao": ["rice", "oil", "bay leaves", "cinnamon", "garlic", "onion", "butter"],
@@ -27,6 +31,7 @@ dish_mappings = {
     "puffed rice mix": ["coconut", "sugar", "milk", "puffed rice"],
     "tropicana fruits": ["banana", "mango"],
     "fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
+    "shrimp fish curry": ["shrimp", "fish", "potato", "onion", "chilli", "turmeric"],
     "tilipia fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "puffed rice balls": ["puffed rice", "jaggery", "water", "mustard oil"],
     "crunchy puffed rice balls": ["puffed rice", "jaggery", "water", "mustard oil"],
@@ -121,7 +126,21 @@ dish_mappings = {
     "potato chops": ["potato", "onion", "green chilli", "oil"],
     "chop": ["potato", "onion", "green chilli", "oil"],
     "cauliflower chops": ["cauliflower", "onion", "green chilli", "oil"],
+    "fish chop": ["fish", "onion", "green chilli", "oil"],
     "cabbage chop": ["cabbage", "onion", "green chilli", "oil"],
+    "chicken soup": ["chicken", "oil", "chilli", "tumeric", "coriander leaf"],
+    "meat soup": ["meat", "oil", "chilli", "tumeric", "coriander leaf"],
+    "meat broth": ["meat", "oil", "chilli", "tumeric", "coriander leaf"],
+    "egg broth": ["egg", "oil", "chilli", "tumeric", "coriander leaf"],
+    "broth of meat": ["meat", "oil", "chilli", "tumeric", "coriander leaf"],
+    "fish broth": ["fish", "oil", "chilli", "tumeric", "coriander leaf"],
+    "potato soup": ["potato", "oil", "chilli", "tumeric", "coriander leaf"],
+    "soup": ["potato", "oil", "chilli", "tumeric", "coriander leaf"],
+    "vegetable soup": ["potato", "oil", "chilli", "tumeric", "coriander leaf"],
+    "rasmalai": ["milk", "sugar", "pistachio", "curd"],
+    "rasaw malai": ["milk", "sugar", "pistachio", "curd"],
+
+
     
     "meat+potato": ["meat", "potato"],
     "potato fry": ["potato", "onion", "chilli", "oil"],

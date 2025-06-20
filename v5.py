@@ -17,6 +17,7 @@ from variables import (
     FILE_NAME,
 )
 unknown_itemsed = set()
+unknown_metrics = set()  
 
 def fuzzy_match(item, mapping_dict):
     item = item.strip()
@@ -64,6 +65,9 @@ def extract_quantity(text):
             num = eval(num_str) if "/" in num_str else float(num_str)
             if unit in baseWeights:
                 return num * baseWeights[unit], unit, quantity_string
+    
+    
+    
     return None, None, quantity_string
 
 def parse_quantity_column(text):
@@ -144,6 +148,14 @@ def clean_food_entry(original_entry, quantity_text=None):
 
             if matched_dish:
                 if len(inside_items) < NUM_ITEMS_NECESSARY_TO_EXPAND:
+                    matched_base = (
+                    food_mappings.get(cleaned)
+                    or fish_meat_table.get(cleaned)
+                    or fuzzy_match(cleaned, food_mappings)
+                    or fuzzy_match(cleaned, fish_meat_table)
+                    )
+                    if not matched_base: 
+                        unknown_metrics.add(cleaned)
                     return ", ".join(dish_mappings[matched_dish])
                 
                 matched_ingredient = next(
@@ -210,7 +222,7 @@ def clean_food_entry(original_entry, quantity_text=None):
                 
             if dish_key:
                 dish_ingredients = dish_mappings[dish_key]
-                dish_weight, _, _ = extract_quantity(f"({inside_str})")
+                dish_weight, _, quantity_str = extract_quantity(f"({inside_str})")
                 
                 if dish_weight is not None:
                     # Create lists to track ingredients by type
@@ -325,6 +337,9 @@ def clean_food_entry(original_entry, quantity_text=None):
                     weight = DEFAULT_GARNISH_WEIGHT
                 elif category == "oil":
                     weight = DEFAULT_OIL_WEIGHT
+            elif not cleaned_name:
+                # Track unknown items
+                unknown_itemsed.add(matching_item)
 
             temp_storage.append({
                 "name": cleaned_name,
@@ -401,10 +416,14 @@ for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
 
 df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
 print("Cleaning complete.")
-print(clean_food_entry("chicken cury (one third pcs)"))
+
+# Print unknown metrics and items at the end
+if unknown_metrics:
+    print("\nUNKNOWN METRICS found:")
+    for metric in sorted(unknown_metrics):
+        print(f" - {metric}")
+
 if unknown_itemsed:
-    print("\n UNKNOWN items found:")
+    print("\nUNKNOWN ITEMS found:")
     for item in sorted(unknown_itemsed):
         print(f" - {item}")
-
-        #papaya vegetable (pulse,lentils,onion,chili,coriander leaves)
