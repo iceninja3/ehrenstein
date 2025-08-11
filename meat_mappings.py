@@ -322,6 +322,7 @@ fish_meat_table = {
     "raw speckled shrimp": "Shrimp, Speckled, raw",
 
     "silver carp": "Silver carp, without bones, raw",
+    "bighead carp": "Silver carp, without bones, raw",
     "raw silver carp": "Silver carp, without bones, raw",
     "boneless silver carp": "Silver carp, without bones, raw",
 
@@ -370,6 +371,7 @@ fish_meat_table = {
       "cow stomach": "Beef, meat, lean, boneless, raw",
 
     "beef": "Beef, meat, lean, boneless, raw",
+    "beef meat": "Beef, meat, lean, boneless, raw",
     "lean beef": "Beef, meat, lean, boneless, raw",
     "boneless beef": "Beef, meat, lean, boneless, raw",
     "raw beef": "Beef, meat, lean, boneless, raw",

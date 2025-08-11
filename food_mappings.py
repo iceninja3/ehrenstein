@@ -1,6 +1,9 @@
 food_mappings = {
+    "fish egg": "Fish roe, cooked",
     "elephant apple": "Elephant apple, ripe, raw",
+    "spine gourd": "Gourd, teasle, boiled* (without salt)",
     "spicy puffed rice": "Rice, puffed, salted",
+    "spiced puffed": "Rice, puffed, salted",
     "jhal": "Rice, puffed, salted",
     "rice puffs": "Rice, puffed, salted",
     "popped rice": "Rice, popped",
@@ -42,6 +45,7 @@ food_mappings = {
     "semolina cake": "Biscuit, sweet*",
     "winter cake": "Biscuit, sweet*",
      "bread": "Bread, bun/roll",
+     "bun": "Bread, bun/roll",
      "roll": "Bread, bun/roll",
      "loaf of bread": "Bread, bun/roll",
     "bread roll": "Bread, bun/roll",
@@ -83,6 +87,7 @@ food_mappings = {
     "snake gourd": "Gourd, snake, raw",
     "sponge gourd": "Gourd, sponge, raw",
     "teasle gourd": "Gourd, teasle, boiled* (without salt)",
+   
     "gourd fry": "Gourd, bitter, fry*",  # New addition
     # Vegetables
 
@@ -122,6 +127,7 @@ food_mappings = {
     "green gram": "Green gram, split, boiled* (without salt)",
     "gram": "Green gram, split, boiled* (without salt)",
     "lentil": "Green gram, split, boiled* (without salt)",
+    "boiled lentil": "Green gram, split, boiled* (without salt)",
     "pulse": "Green gram, split, boiled* (without salt)",
     "mung beans": "Green gram, split, boiled* (without salt)",  # Alternative name for Green Gram
     "moog pulses": "Green gram, split, boiled* (without salt)",  # Alternative name for Green Gram
@@ -258,6 +264,7 @@ food_mappings = {
     "green paper": "Chilli, green, with seeds, raw",
     "red chilli": "Chilli, red, dry",
     "spices": "Chilli, red, dry",
+    "spicy spices": "Chilli, red, dry",
     "dried chilli": "Chilli, red, dry",
     "cinnamon": "Cinnamon, ground",
     "cloves": "Cloves, dried",
@@ -298,6 +305,7 @@ food_mappings = {
     "apple without skin": "Apple, without skin, raw",
     "asian pears": "Asian pears, raw",
     "pears": "Asian pears, raw",
+    "anaji kola": "Banana, Sagar, ripe, raw",
     "banana": "Banana, Sagar, ripe, raw",
     "cooking banana": "Banana, Sagar, ripe, raw",
     "unripe banana": "Banana, Sagar, ripe, raw",
@@ -358,6 +366,7 @@ food_mappings = {
     "mango juice": "Orange juice, raw (unsweetened)",
     "orange": "Orange, raw",
     "sweet orange": "Orange, sweet, ripe, raw",
+    "malta": "Orange, sweet, ripe, raw",
     "palmyra palm": "Palmyra palm, cotyledon, raw",
     "palmyra palm pulp": "Palmyra palm, pulp, orange flesh, ripe, raw",
     "persimmon": "Persimmon, ripe, raw",
@@ -371,7 +380,6 @@ food_mappings = {
     "tamarind sour": "Tamarind, pulp, ripe, raw",
     "watermelon": "Watermelon, ripe, raw",
     "wood apple": "Wood apple, ripe, raw",
-    "egg with potato": "Egg, chicken, farmed, boiled* (without salt); Potato, Diamond, boiled* (without salt)",
     "egg": "Egg, chicken, farmed, boiled* (without salt)",  # Override raw with boiled
     "chicken egg": "Egg, chicken, farmed, boiled* (without salt)",
     
@@ -528,7 +536,11 @@ food_mappings = {
     "human colostrum": "Milk, human, colostrum, raw",
     "raw colostrum": "Milk, human, colostrum, raw",
 
-    "payesh": "Payesh*"
+    "payesh": "Payesh*",
+    "khir": "Payesh*",
+    "chocolate": "Chocolate, dark",
+    "olive": "Olive, ripe",
+    "olive pickle": "Olive, pickled",
     
 }
 
