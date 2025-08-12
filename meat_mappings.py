@@ -94,6 +94,7 @@ fish_meat_table = {
 
     "mystus": "Day's mystus, combined species, eyes included, raw",
     "day's mystus": "Day's mystus, combined species, eyes included, raw",
+    "tengra fish": "Day's mystus, combined species, eyes included, raw",
     "raw mystus": "Day's mystus, combined species, eyes included, raw",
     "raw day's mystus": "Day's mystus, combined species, eyes included, raw",
 
@@ -232,6 +233,7 @@ fish_meat_table = {
     "raw razorbelly minnow": "Minnow, Large scale razorbelly, raw",
 
     "mola carplet": "Mola carplet, whole, eyes included, raw",
+    "meni fish": "Mola carplet, whole, eyes included, raw",
     "mola fish": "Mola carplet, whole, eyes included, raw",
     "carplet": "Mola carplet, whole, eyes included, raw",
     "raw mola carplet": "Mola carplet, whole, eyes included, raw",

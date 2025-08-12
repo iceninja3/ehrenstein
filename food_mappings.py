@@ -360,8 +360,10 @@ food_mappings = {
     "lime": "Lime, sweet, raw",
     "lychee": "Lychee, raw",
     "mango": "Mango, Fazli, orange flesh, ripe, raw",
+    
     "dry mango": "Mango, Fazli, orange flesh, ripe, raw",
     "dried mango": "Mango, Fazli, orange flesh, ripe, raw",
+    "mango fruit leather": "Mango, Fazli, orange flesh, ripe, raw",
     "fazli mango": "Mango, Fazli, orange flesh, ripe, raw",
     "langra mango": "Mango, Langra, yellow flesh, ripe, raw",
     "melon": "Melon, Futi, orange flesh, ripe, raw",
@@ -390,6 +392,7 @@ food_mappings = {
     "tamarind sour": "Tamarind, pulp, ripe, raw",
     "watermelon": "Watermelon, ripe, raw",
     "wood apple": "Wood apple, ripe, raw",
+    "stone apple": "Wood apple, ripe, raw",
     "egg": "Egg, chicken, farmed, boiled* (without salt)",  # Override raw with boiled
     "chicken egg": "Egg, chicken, farmed, boiled* (without salt)",
     
@@ -560,5 +563,7 @@ food_mappings = {
     "centerfruit": "Chewing gum",
     "chewinggum": "Chewing gum",
     "mango pickle": "Mango, pickled",
+    "vinegar": "Vinegar, balsamic",
+    "sapodilla": "Sapodilla"
 }
 
