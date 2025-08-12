@@ -192,6 +192,7 @@ food_mappings = {
     "indian spinach": "Indian spinach, boiled* (without salt)",
     "jute leaves": "Jute leaves, raw",
     "pumpkin leaves": "Pumpkin leaves, raw",
+    "radish leaf": "Radish leaves, raw",
 
     "radish leaves": "Radish leaves, raw",
     "slender amaranth leaves": "Slender amaranth leaves, boiled* (without salt)",
@@ -444,6 +445,8 @@ food_mappings = {
     "panela": "Jaggery/Panela, date palm",
     "date": "Jaggery/Panela, date palm",
     "date palm": "Jaggery/Panela, date palm",
+    "palm": "Jaggery/Panela, date palm",
+    "palm fruit": "Jaggery/Panela, date palm",
     "date jaggery": "Jaggery/Panela, date palm",
     "red betel leaves": "Betel leaves",
     "vegetable leaf": "Betel leaves",
