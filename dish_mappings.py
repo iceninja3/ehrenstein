@@ -7,7 +7,7 @@ dish_mappings = {
     "dalpuri": ["pea", "garlic", "chilli", "cumin", "turmeric", "onion"],
 
     "alur dom": ["potato", "onion", "chilli", "turmeric", "oil"],
-
+    
     "shingara": ["potato", "oil", "condiment"],
     "hoch poch": ["pulse", "oil", "turmeric", "chilli", "potato", "soy meat"],
     "hotchpotch": ["pulse", "oil", "turmeric", "chilli", "potato", "soy meat"],
@@ -163,6 +163,7 @@ dish_mappings = {
     "fuchka": ["potato", "chickpea", "chilli", "tamarind", "onion", "oil"],
     "fried pumpkin flower": ["pumpkin flower", "oil", "green chilli"],
     "fried cauliflower": ["cauliflower", "oil", "green chilli"],
+    "fried vegetable": ["bean", "potato", "oil", "green chili"],
     "fried tomato": ["tomato", "oil", "green chilli"],
     "fried chickpeas": ["chickpeas", "oil", "green chilli"],
     "chickpea fry": ["chickpeas", "oil", "green chilli"],
@@ -255,6 +256,8 @@ dish_mappings = {
     "fried rice": ["rice", "egg", "onion", "oil"],
     "fried puffed rice": ["puffed rice", "egg", "onion", "oil"],
     "fried fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
+    "fried rui fish": ["oil", "rohu", "salt", "chilli", "coriander leaves"],
+    "fried small fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
     "hilsha fish fry": ["oil", "hilsha", "salt", "chilli", "onion"],
     "fried hilsha fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
     "curry": ["turmeric", "chilli", "salt", "coriander leaves", "potato", "onion", "hilsha"],

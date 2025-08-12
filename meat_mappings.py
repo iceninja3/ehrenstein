@@ -9,7 +9,7 @@ fish_meat_table = {
 
     "scaly hairfin anchovy": "Anchovy, Scaly hairfin, raw",
     "raw scaly hairfin anchovy": "Anchovy, Scaly hairfin, raw",
-
+    
     "barb": "Barb, Pool barb, raw",
     "swamp barb": "Barb, Pool barb, raw",
     "putae fish": "Barb, Pool barb, raw",																							
@@ -24,6 +24,7 @@ fish_meat_table = {
 
     "bata": "Bata, raw",
     "bata fish": "Bata, raw",
+
     "raw bata": "Bata, raw",
 
     "boal": "Boal, without bones, raw",
@@ -160,6 +161,7 @@ fish_meat_table = {
     "dried loitta fish": "Hilsha, without bones, raw",
     "hilsha": "Hilsha, without bones, raw",
     "hilsha fish": "Hilsha, without bones, raw",
+    "fish head": "Hilsha, without bones, raw",
     "dried fish": "Hilsha, without bones, raw",
     "dry fish": "Hilsha, without bones, raw",
     "raw hilsha": "Hilsha, without bones, raw",
