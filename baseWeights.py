@@ -1,4 +1,6 @@
 baseWeights = {
+    "slice": 145,
+    "mug": 90,
     "lunch": 100,
     "dinner": 500,
     "breakfast": 450,

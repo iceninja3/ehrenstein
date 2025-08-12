@@ -377,6 +377,7 @@ fish_meat_table = {
     "raw beef liver": "Beef liver, raw",
      "meat": "Beef, meat, lean, boneless, raw",
       "cow stomach": "Beef, meat, lean, boneless, raw",
+      "bovine stomach": "Beef, meat, lean, boneless, raw",
       "beef tripe": "Beef, meat, lean, boneless, raw",
 
     "beef": "Beef, meat, lean, boneless, raw",
