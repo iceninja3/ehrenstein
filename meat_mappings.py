@@ -23,6 +23,7 @@ fish_meat_table = {
     "boneless pool barb": "Barb, Pool barb, without bones, eyes included, raw",
 
     "bata": "Bata, raw",
+    "bata fish": "Bata, raw",
     "raw bata": "Bata, raw",
 
     "boal": "Boal, without bones, raw",
@@ -35,7 +36,8 @@ fish_meat_table = {
     "calbasu": "Calbasu, without bones, raw",
     "raw calbasu": "Calbasu, without bones, raw",
     "boneless calbasu": "Calbasu, without bones, raw",
-
+#Baila Fish
+    "baila fish": "Catfish, Bacha, raw",
     "catfish": "Catfish, Bacha, raw",
     "painted catfish": "Catfish, Bacha, raw",
      "shing fish": "Catfish, Bacha, raw",
@@ -75,6 +77,7 @@ fish_meat_table = {
     "boneless clown knife fish": "Clown knife fish, without bones, raw",
 
     "carp": "Common carp, without bones, raw",
+    "koi fish": "Common carp, without bones, raw",
     "common carp": "Common carp, without bones, raw",
     "raw carp": "Common carp, without bones, raw",
     "raw common carp": "Common carp, without bones, raw",
@@ -157,6 +160,7 @@ fish_meat_table = {
     "hilsha": "Hilsha, without bones, raw",
     "hilsha fish": "Hilsha, without bones, raw",
     "dried fish": "Hilsha, without bones, raw",
+    "dry fish": "Hilsha, without bones, raw",
     "raw hilsha": "Hilsha, without bones, raw",
     "boneless hilsha": "Hilsha, without bones, raw",
     "ilish": "Hilsha, without bones, raw",
@@ -369,6 +373,7 @@ fish_meat_table = {
     "raw beef liver": "Beef liver, raw",
      "meat": "Beef, meat, lean, boneless, raw",
       "cow stomach": "Beef, meat, lean, boneless, raw",
+      "beef tripe": "Beef, meat, lean, boneless, raw",
 
     "beef": "Beef, meat, lean, boneless, raw",
     "beef meat": "Beef, meat, lean, boneless, raw",
@@ -394,6 +399,7 @@ fish_meat_table = {
     "raw buffalo meat": "Buffalo meat, raw",
 
     "chicken breast": "Chicken breast, without skin, raw",
+    "roast": "Chicken breast, without skin, raw",
     "chicken thigh": "Chicken breast, without skin, raw",
     "boneless chicken breast": "Chicken breast, without skin, raw",
     "raw chicken breast": "Chicken breast, without skin, raw",

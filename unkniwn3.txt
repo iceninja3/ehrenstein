@@ -1,12 +1,11 @@
-
 UNKNOWN METRICS found:
- - 
  - 1 and half
  - 1 table spoon
  - 1 tea spoon
- - 2 spoons
+ - chicken broth
  - condiment
  - dudh puli
+ - flour with potato
  - half
  - mung bean with catla fish
  - one fourth
@@ -17,17 +16,13 @@ UNKNOWN METRICS found:
 UNKNOWN ITEMS found:
  - 
  - (sugar & soyabean oil)
- - .5 litter
  - 1 drop
- - 1 litre
- - 1 litter
  - 1 mug
- - 1/2 glass)
- - 1/2 plate)
  - 2 drops
  - 3 slice
  - 5 parts
  - arum
+ - baila fish
  - banana stem
  - banana stem (oil,potato,spices,water)
  - bangchur
@@ -40,46 +35,34 @@ UNKNOWN ITEMS found:
  - bighead carp fish
  - bilimbi
  - biscuit  water
- - biscuit (1 pac)
  - biscuit (4 pcs) water (2 glass)
-
- - black brinjal water
- - black brinjal water (2 glasses)
- - black salt
-
+ - bittermelon fry
+ - bittermelon fry (potato, bittermelon, onion, green chili, oil)
  - boiled
- - bora
- - bora(1 pcs)
+ - botte gourd leaf
+ - botte gourd leaf (1 bowl)
  - bovine stomach
- - bringle
  - bun (1 pc)
  - carambola pickle
  - carambola pickle (carambola, chili, salt, sugar)
- - chili flacks
+ - centerfruit chocolate
+ - chicken broth
+ - chilli water
+ - chilli water (2 glass)
  - chocolate cake
- - chocolate roll
- - chotpoti (fuska
  - chutney
  - chutney(jujube)
  - climbing
  - climbing (1 pcs)
  - coffee tea
  - coffee tea (1 cup)
+ - coriander leaves water
+ - coriander leaves water (1 glass)
  - crispy chocolate
  - crispy chocolate (1 pack)
  - cucubit spinach
  - cucumber coriender leaf
  - cucumber leaves
- - dal puri
- - dal puri (1 pc)
- - dal puri (3 pcs)
- - dal- puri
- - dal- puri (2 pcs)
- - dal-puri
- - dal-puri (1 pcs)
- - dal-puri (1 plate)
- - dal-puri (2 pcs)
- - dal-puri (4 pcs)
  - dessert
  - drowry milk chocolate
  - elephant apple pickle
@@ -88,44 +71,32 @@ UNKNOWN ITEMS found:
  - elephant apple pickle (chilli, sugar, pach phoron, salt)
  - elephant apple pickle (salt, chilli)
  - elephant plant
- - fish  water
- - fish (1 pc) water (1 glass)
- - fish (2
- - fish egg
- - fish egg (half bowl)
- - fish egg (onion, tomato, soybean oil)
- - fish egg curry
- - fish egg curry (bringal, onion, oil, condiment)
- - fish egg pakoda
- - fish vegetable
- - fish vegetable (onion,ginger,chili,coriander leaves)
- - fizz up
- - flagyl
- - flagyl (400)
+ - fenugreek seed
+ - fied peanuts
+ - fish  pulse
+ - fish ( 1 pcs) pulse (half bowl)
+ - fish head
  - flattened
- - flattened rice laddu
- - flattened rice laddu (1 pcs)
+ - fried chicken eggs
  - fried rui fish
+ - fried small fish
+ - fried small fish (2 spoon )
+ - fried vegetable
+ - fried vegetable ( bean, potato, oil, chili)
  - fruit jelly
  - fruit jelly(1 spoon)
-
- - grampea
+ - glass
+ - glass (1glass)
  - half
- - half bowl)
- - half glass)
- - half glasses)
  - half mug
- - half pcs)
  - half plate)
- - halwa (one
  - horlicks
  - horlicks (3spoons)
- - juice  water
- - juice (1 glass) water (1 glass)
  - khadai
  - khadai (coconut, cardamon, jaggery, )water (1 glass)
  - khadai (onion, condiment)
  - khadai water
+ - koi fish
  - lemon leaf
  - lentil - peanut
  - lentil - peanut (half bowl)
@@ -135,28 +106,21 @@ UNKNOWN ITEMS found:
  - mango fruit drink
  - mango fruit drink(1 pc)
  - mango fruit leather
- - mango pickel
- - mango pickel (mustard oil, chili,sugar, spices)
- - mango pickle
- - mango pickle (1 bowl)
- - mango pickle (2 pcs)
  - mashed item
-
+ - meni fish
+ - meni fish (oil, turmeric, chilli)
+ - meni fish (potato)
+ - meni fish (potato, chilli, tumeric,oil, onion)
+ - meni fish (stolon of taro)
  - meni fish curry
  - meni fsh
  - meni fsh (potato, turmeric, chilli, salt, oil)
- - milk (1
  - mughlai
  - mughlai(2pcs)
  - muglai
- - muri
- - muri (puffed rice- half bowl)
  - neem leaf
-
-
-
-
  - onion leaves
+ - pakora
  - palm
  - palm (1 cup)
  - palm (1 table spoon)
@@ -164,29 +128,34 @@ UNKNOWN ITEMS found:
  - palm chop
  - palm fruit
  - palm fruit (1 pcs)
+ - pasta
+ - pasta (turmeric, chilli, salt, soybean oil, condiment, beef)
  - peanut butter
- - pickle  water
- - pickle (1.5 bowl) water (1 glass)
  - pickle (half bowl
  - pickle of elephant apple
- - pointed gourd curry (onion
- - potato
- - potato leaf (one
+ - polao
+ - polao (1 plate)
+ - prashad
+ - prashad (1 bowl)
  - proshad
  - proshad (half bowl)
- - pulse
- - pulse (one
- - pulseoil
  - puri(1pc0
+ - radish leaf
+ - radish leaf (1 spoon)
+ - radish leaf (half bowl)
+ - radish leaf (half spoon)
+ - radish leaf (oil, onion, green chilli)
+ - radish leaf (onion, chili)
+ - radish leaf (onion, green chili, garlic, oil, salt)
  - rice ( one
  - rice (1
- - rice (1 plate
- - rice (one
- - rice(one
+ - rice cake
+ - rice cake(jaggery,rice powder)
+ - river are bffs
  - role
  - role (flour, vegetables)
- - saltbrinjal
- - saltwater
+ - salt water
+ - salt water (1 liter)
  - sapodilla
  - sapodilla (1 pcs)
  - sauce
@@ -201,19 +170,17 @@ UNKNOWN ITEMS found:
  - sour (rice juice, tomato, coriander leaves, green chili, turmeric, salt)
  - sour pulse
  - speed
- - spiced puffed
-
- - spicy spices
  - starvation - apple
  - starvation - apple (1 pcs)
+ - stem amaranth
  - stone apple
  - stone apple (half bowl)
  - stone apple (half)
  - sukto
  - sukto (1 spoon)
- - sweet  water
- - sweet (1 pcs) water (1 glass)
- - tamarind broth
+ - tamarind pickle
+ - tamarind pickle (1 pack)
+ - tamarind pickle (half pack)
  - tang
  - tea
  - tengra fish
@@ -222,12 +189,15 @@ UNKNOWN ITEMS found:
  - tok
  - tok (olive, coriander leaf, green chilli, turmaric, onion, garlic)
  - tomato sour curry
+ - vegatables
+ - vegatables (potato,tomato,pulse)
+ - vegatables(potato,cabbage)
+ - vegetable leaf chop
+ - vegetable leaf chop (turmeric, gram flour, oil)
+ - vegetable leaf curry
+ - vegetable leaf curry (2 spoon)
  - vinegar
- - water (1
+ - vishal
  - water (1 glass)
- - water (1`
- - water (2 glass
- - water 2 glass
- - water 2glass
  - whole day
  - whole day water 4 glass

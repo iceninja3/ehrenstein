@@ -14,6 +14,7 @@ food_mappings = {
     "rice flakes": "Rice flakes, white grain, water-soaked",
     # General Rice Terms 
     "puffed rice": "Rice, puffed, salted",
+    "muri": "Rice, puffed, salted",
     "rice": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     "panta": "Rice, BR-28, boiled* (without salt)",  # Override raw versions with boiled
     
@@ -104,6 +105,7 @@ food_mappings = {
     "beetroot": "Beet root, red, raw",
     "pumpkin flower": "Pumpkin leaves, raw",
     "brinjal": "Brinjal, purple, long, boiled* (without salt)",
+    "bringle": "Brinjal, purple, long, boiled* (without salt)",
     "black brinjal": "Brinjal, purple, long, boiled* (without salt)",
     "eggplant": "Brinjal, purple, long, boiled* (without salt)",  # Eggplant = Brinjal
     "broad beans": "Broad beans, raw",
@@ -111,6 +113,7 @@ food_mappings = {
     "carrot": "Carrot, boiled* (without salt)",
     "cauliflower": "Cauliflower, boiled* (without salt)",
     "cowpea": "Cowpea, boiled* (without salt)",
+    "bora": "Cowpea, boiled* (without salt)",
     "asparagus bean": "Cowpea, boiled* (without salt)",
     "black-eyed pea": "Cowpea, boiled* (without salt)",
     "black eyed pea": "Cowpea, boiled* (without salt)",
@@ -121,7 +124,7 @@ food_mappings = {
     "garlic": "Garlic, raw",
     # Lentils, Grams, and Beans (with alternative names)
     "bengal gram": "Bengal gram, whole, boiled* (without salt)",
-    "chickpeas": "Bengal gram, whole, boiled* (without salt)",
+    "chickpea": "Bengal gram, whole, boiled* (without salt)",
     "black gram": "Black gram, split, dried, raw",
     "urad beans": "Black gram, split, dried, raw",  # Alternative name for Black Gram
     "green gram": "Green gram, split, boiled* (without salt)",
@@ -135,6 +138,7 @@ food_mappings = {
     "pigeon pea": "Red gram, split, dried, raw",  # Alternative name for Red Gram
     
     "grass pea": "Grass pea, split, boiled* (without salt)",
+    "grampea": "Pea, boiled* (without salt)",
     "pea": "Pea, boiled* (without salt)",
     "soybean": "Soybean, dried, raw",
     "soy meat": "Soybean, dried, raw",
@@ -248,6 +252,7 @@ food_mappings = {
     "pistachio": "Pistachio nuts, dried",
     "pumpkin seeds": "Pumpkin seeds, dried",
     "sesame seeds": "Sesame seeds, whole, dried",
+    "sesame": "Sesame seeds, whole, dried",
     "walnuts": "Walnuts",
     # Spices & Herbs
     "bay leaf": "Bay leaf, dried",
@@ -256,6 +261,7 @@ food_mappings = {
     "indian bay leaf": "Bay leaf, dried",
     "cardamom": "Cardamom",
     "chilli": "Chilli, red, dry",
+    "burned chili": "Chilli, red, dry",
     "dry fried chilli": "Chilli, red, dry",
     "dry chilli": "Chilli, red, dry",
     "chilli powder": "Chilli, red, dry",
@@ -306,6 +312,7 @@ food_mappings = {
     "asian pears": "Asian pears, raw",
     "pears": "Asian pears, raw",
     "anaji kola": "Banana, Sagar, ripe, raw",
+    "fruto": "Banana, Sagar, ripe, raw",
     "banana": "Banana, Sagar, ripe, raw",
     "cooking banana": "Banana, Sagar, ripe, raw",
     "unripe banana": "Banana, Sagar, ripe, raw",
@@ -366,6 +373,7 @@ food_mappings = {
     "mango juice": "Orange juice, raw (unsweetened)",
     "orange": "Orange, raw",
     "sweet orange": "Orange, sweet, ripe, raw",
+    "blood orange": "Orange, sweet, ripe, raw",
     "malta": "Orange, sweet, ripe, raw",
     "palmyra palm": "Palmyra palm, cotyledon, raw",
     "palmyra palm pulp": "Palmyra palm, pulp, orange flesh, ripe, raw",
@@ -376,6 +384,7 @@ food_mappings = {
     "pomelo": "Pomelo, raw",
     "tamarind": "Tamarind, pulp, ripe, raw",
     "tamarind juice": "Tamarind, pulp, ripe, raw",
+    "tamarind broth": "Tamarind, pulp, ripe, raw",
     "tamarind soup": "Tamarind, pulp, ripe, raw",
     "tamarind sour": "Tamarind, pulp, ripe, raw",
     "watermelon": "Watermelon, ripe, raw",
@@ -396,6 +405,7 @@ food_mappings = {
     "duck egg": "Egg, duck, whole, boiled* (without salt)",
     "boiled duck egg": "Egg, duck, whole, boiled* (without salt)",
     "salt": "Salt",
+    "black salt": "Salt",
     # Butter & Ghee
     "butter": "Butter, salted",
     "salted butter": "Butter, salted",
@@ -441,7 +451,7 @@ food_mappings = {
     "honey": "Honey",
     "sugar": "Sugar, white",
     "raw sugar": "Sugar, white",
-    "sweet": "Sugar, white",
+    
     "white sugar": "Sugar, white",
     "jaggery": "Jaggery, sugarcane, solid",
     "sugarcane": "Jaggery, sugarcane, solid",
@@ -538,9 +548,13 @@ food_mappings = {
 
     "payesh": "Payesh*",
     "khir": "Payesh*",
+    "chocobean": "Chocolate, dark",
     "chocolate": "Chocolate, dark",
+    "sweet": "chocolate, dark",
     "olive": "Olive, ripe",
     "olive pickle": "Olive, pickled",
-    
+    "centerfruit": "Chewing gum",
+    "chewinggum": "Chewing gum",
+    "mango pickle": "Mango, pickled",
 }
 

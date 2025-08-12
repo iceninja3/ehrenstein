@@ -398,31 +398,31 @@ def clean_food_entry(original_entry, quantity_text=None):
 input_file = FILE_NAME
 df = pd.read_excel(input_file, sheet_name="Data", header=1)
 
-description_cols = [] 
-quantity_cols = []
-for i, col in enumerate(df.columns): #finds all our columns that need to be cleaned 
-    if isinstance(col, str) and "description of the food" in col.lower():
-        description_cols.append(col)
-        quantity_cols.append(df.columns[i + 1] if i + 1 < len(df.columns) else None)
+# description_cols = [] 
+# quantity_cols = []
+# for i, col in enumerate(df.columns): #finds all our columns that need to be cleaned 
+#     if isinstance(col, str) and "description of the food" in col.lower():
+#         description_cols.append(col)
+#         quantity_cols.append(df.columns[i + 1] if i + 1 < len(df.columns) else None)
 
-for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
-    new_clean_col = f"{desc_col}_CLEAN"
-    new_raw_col = f"raw_cooked_{i+1}"
+# for i, (desc_col, quant_col) in enumerate(zip(description_cols, quantity_cols)):
+#     new_clean_col = f"{desc_col}_CLEAN"
+#     new_raw_col = f"raw_cooked_{i+1}"
 
-    cleaned_data = df.apply(
-        lambda row: pd.Series(clean_food_entry(row[desc_col], row.get(quant_col))), axis=1
-    )
-    cleaned_data.columns = [new_clean_col, new_raw_col]
+#     cleaned_data = df.apply(
+#         lambda row: pd.Series(clean_food_entry(row[desc_col], row.get(quant_col))), axis=1
+#     )
+#     cleaned_data.columns = [new_clean_col, new_raw_col]
 
-    quant_index = df.columns.get_loc(quant_col)
-    for col_name in reversed(cleaned_data.columns): 
-        df.insert(quant_index + 1, col_name, cleaned_data[col_name])
+#     quant_index = df.columns.get_loc(quant_col)
+#     for col_name in reversed(cleaned_data.columns): 
+#         df.insert(quant_index + 1, col_name, cleaned_data[col_name])
 
-df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
-print("Cleaning complete.")
-print(fuzzy_match("chickpea", food_mappings))
-print(fuzzy_match("chickpea", fish_meat_table))
-print(clean_food_entry("pasta (turmeric, chilli, salt, soybean oil, condiment, beef)"))
+# df.to_excel("Cleaned_Bangladesh_Food_Diary.xlsx", index=False)
+# print("Cleaning complete.")
+# print(fuzzy_match("chickpea", food_mappings))
+# print(fuzzy_match("chickpea", fish_meat_table))
+print(clean_food_entry("Rice (1 plate), Fish Curry (bringal, oil, onion, chili), Bottle Gourd Curry (oil, onion, shrimp)"))
 # Print unknown metrics and items at the end
 if unknown_metrics:
     print("\nUNKNOWN METRICS found:")

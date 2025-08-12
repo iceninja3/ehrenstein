@@ -12,7 +12,7 @@ DEFAULT_OIL_WEIGHT = 15
 DEFAULT_GARNISH_WEIGHT = 10
 
 # Fuzzy matching threshold
-FUZZY_MATCH_THRESHOLD = 80
+FUZZY_MATCH_THRESHOLD = 85
 
 #this is at least the number of items that must be in a dish's () for it to not use the default version 
 NUM_ITEMS_NECESSARY_TO_EXPAND = 2
