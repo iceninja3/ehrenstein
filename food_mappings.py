@@ -553,6 +553,7 @@ food_mappings = {
     "khir": "Payesh*",
     "chocobean": "Chocolate, dark",
     "chocolate": "Chocolate, dark",
+    "crispy chocolate": "Chocolate, dark",
     "sweet": "chocolate, dark",
     "olive": "Olive, ripe",
     "olive pickle": "Olive, pickled",
