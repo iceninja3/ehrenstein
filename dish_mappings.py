@@ -105,6 +105,7 @@ dish_mappings = {
     "papaya curry": ["papaya", "chilli", "tumeric", "onion", "oil", "mustard oil"],
     #pulse chop (pulse, water lilly, chilli, soybean oil)	
     "pulse chop": ["pulse", "water lilly", "chilli", "soybean oil"],
+    "palm chop": ["palm", "water lilly", "chilli", "soybean oil"],
     "radish chop": ["radish", "water lilly", "chilli", "soybean oil"],
     "tumeric pulse chop": ["tumeric", "pulse", "water lilly", "chilli", "soybean oil"],
     "potato vegetable": ["potato", "chilli", "tumeric", "onion", "oil", "mustard oil"],
