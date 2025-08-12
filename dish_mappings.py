@@ -22,6 +22,7 @@ dish_mappings = {
     "pulse pakoda": ["pulse", "onion", "green chilli", "cumin seeds", "oil"],
     "fish egg pakoda": ["fish egg", "pulse", "onion", "green chilli", "cumin seeds", "oil"],
     "pakoda": ["pulse", "onion", "green chilli", "cumin seeds", "oil"],
+    "pakora": ["pulse", "onion", "green chilli", "cumin seeds", "oil"],
     "smoothie": ["banana", "mango", "milk"],
     "halua": ["semolina", "nutmeg", "jaggery", "nut", "ghee"],
     "halwa": ["semolina", "nutmeg", "jaggery", "nut", "ghee"],
@@ -79,8 +80,8 @@ dish_mappings = {
     "dried fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "hilsha fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
     "small fish curry": ["fish", "potato", "onion", "chilli", "turmeric"],
-    "chicken curry": ["chicken", "onion", "garlic", "ginger", "chilli"],
-    
+    "mughalai": ["chicken", "onion", "garlic", "fenugreek leaves", "spices"],
+    "mughali": ["chicken", "onion", "garlic", "ginger", "chilli"],
     "duck curry": ["duck", "potato", "onion", "chilli", "turmeric"],
     #fish bhuna (onion,green chili,tomato,coriander leaves,soyabean oil)	
     "fish bhuna": ["onion", "fish", "green chilli", "tomato", "coriander leaves", "soybean oil"],
@@ -220,6 +221,7 @@ dish_mappings = {
     "spine gourd fry": ["spine gourd", "onion", "oil"],
     "bottle gourd flower fry": ["bottle gourd", "onion", "oil"],
     "mixed vegetables": ["radish," "onion", "potato", "carrot", "oil"],
+    "fried vegetables": ["radish," "onion", "potato", "carrot", "oil"],
     "tip vegetables": ["eggplant", "potato", "radish", "spinach"],
     "vegetable": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric"],
     "vegetbles": ["potato", "taro", "salt", "soybean oil", "chilli", "tumeric"],
@@ -261,5 +263,7 @@ dish_mappings = {
     "hilsha fish fry": ["oil", "hilsha", "salt", "chilli", "onion"],
     "fried hilsha fish": ["oil", "hilsha", "salt", "chilli", "coriander leaves"],
     "curry": ["turmeric", "chilli", "salt", "coriander leaves", "potato", "onion", "hilsha"],
+    "chutney": ["jujube", "chilli", "salt", "mustard oil"],
+    "sukto": ["bitter gourd", "banana", "eggplant", "potato"],
 
 }
