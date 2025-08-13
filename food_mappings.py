@@ -579,6 +579,7 @@ food_mappings = {
     "chocobean": "Chocolate, dark",
     "chocolate": "Chocolate, dark",
     "drowry milk chocolate": "Chocolate, milk",
+    "lollypop": "Sugar, white",
     "crispy chocolate": "Chocolate, dark",
     "sweet": "chocolate, dark",
     "olive": "Olive, ripe",

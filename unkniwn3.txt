@@ -14,7 +14,6 @@ UNKNOWN METRICS found:
  - thankuni leaves
 
 UNKNOWN ITEMS found:
- - 
  - (coconut, sugar, milk)
  - 5 parts
  - arum

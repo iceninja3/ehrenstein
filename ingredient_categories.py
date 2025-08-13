@@ -431,4 +431,27 @@ ingredient_categories = {
     "Sesame oil": "oil",
     "Soybean oil": "oil",
 
+    "Pasta, cooked, wheat": "nonprotein",
+    "Broth, chicken": "nonprotein",
+    "Jelly, fruit": "nonprotein",
+    "Peanut butter": "nonprotein",
+    "Chocolate, cake, frosted": "nonprotein",
+    "Chocolate, cake, frosted": "nonprotein",
+    "Chocolate, dark": "nonprotein",
+    "Chocolate, milk": "nonprotein",
+    "Olive, ripe": "nonprotein",
+    "Olive, pickled": "nonprotein",
+    "Chewing gum":"nonprotein",
+    "Mango, pickled":"nonprotein",
+    "Vinegar, balsamic":"nonprotein",
+    "Sapodilla":"nonprotein",
+
+    
+
 }
+
+
+
+#     
+
+
