@@ -1,6 +1,8 @@
 baseWeights = {
     "slice": 145,
     "mug": 90,
+    "drop": 7,
+    "drops": 7,
     "lunch": 100,
     "dinner": 500,
     "breakfast": 450,
@@ -14,6 +16,7 @@ baseWeights = {
     "spoons": 100,
     "spoos": 100,
     "tablespoon": 1000,
+    "table spoon": 1000,
     "tablespoons": 1000,
     "teaspoon": 75, 
     "teaspoons": 75, 

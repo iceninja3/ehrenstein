@@ -244,6 +244,7 @@ fish_meat_table = {
     "mrigal": "Mrigal carp, eyes included, raw",
     "raw mrigal carp": "Mrigal carp, eyes included, raw",
     "raw mrigal": "Mrigal carp, eyes included, raw",
+    "biggead carp fish": "Mrigal carp, eyes included, raw",
 
     "gold spot mullet": "Mullet, Gold spot, raw",
     "mullet": "Mullet, Gold spot, raw",
@@ -377,6 +378,7 @@ fish_meat_table = {
     "raw beef liver": "Beef liver, raw",
      "meat": "Beef, meat, lean, boneless, raw",
       "cow stomach": "Beef, meat, lean, boneless, raw",
+      "cow belly": "Beef, meat, lean, boneless, raw",
       "bovine stomach": "Beef, meat, lean, boneless, raw",
       "beef tripe": "Beef, meat, lean, boneless, raw",
 
