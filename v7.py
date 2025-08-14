@@ -109,11 +109,15 @@ def parse_quantity_column(text):
         else:
             #match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*([\w\s]+)", part)
 
-            match = re.match(r"(\d+(?:\.\d+)?|\d+/\d+)\s*(.+)", lowered)
+            match = re.match(r"(\d+/\d+|\d+(?:\.\d+)?)\s*(.+)", lowered)
+
+            # print(match)
             if match:
                 num_str, unit = match.groups()
                 num = eval(num_str) if "/" in num_str else float(num_str)
+                # print(num)
                 unit = unit.strip()
+                # print(unit)
                 if unit in baseWeights:
                     total += num * baseWeights[unit]
 
