@@ -1,4 +1,4 @@
-# Title: Bangladesh diet data analysis (Vectorized & Corrected)
+# Title: Bangladesh diet data analysis
 # Author: Sophie Michel
 # Date: August 22, 2025
 # Notes: CONFIDENTIAL- DO NOT DISTRIBUTE- Project in progress
