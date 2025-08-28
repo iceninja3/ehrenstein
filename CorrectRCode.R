@@ -1,9 +1,6 @@
 #Title: Bangladesh diet data analysis
-
 #Date: June 24, 2025
-
 #Author: Sophie Michel
-
 #Notes: CONFIDENTIAL- DO NOT DISTRIBUTE- Project in progress 
 
 
@@ -13,21 +10,14 @@ rm() # good practice to clean memory
 rm(list = ls())
 
 library(hash) # use "install.packages("package name") first, as needed
-
 library(readr)
-
 library(readxl)
-
 library(dplyr)
-
 library(tidyr)
 
 
 
-
-
 #Load food comp table
-
 setwd("/Users/vishal/Library/CloudStorage/Box-Box/Bangladesh Nutrition Data Cleaning 2025/AllTables")
 
 table <- vector(mode='list')
