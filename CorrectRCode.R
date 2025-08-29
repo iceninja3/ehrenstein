@@ -18,13 +18,14 @@ library(tidyr)
 
 
 #Load food comp table
-setwd("/Users/vishal/Library/CloudStorage/Box-Box/Bangladesh Nutrition Data Cleaning 2025/AllTables")
+# setwd("/Users/vishal/Library/CloudStorage/Box-Box/Bangladesh Nutrition Data Cleaning 2025/AllTables2")
+setwd("/Users/vishal/Library/CloudStorage/Box-Box/Bangladesh Nutrition Data Cleaning 2025/FinalTable")
 
 table <- vector(mode='list')
 
 temp = list.files(pattern="*.csv")
 
-for(i in 1:104) {
+for(i in 1:1) {
   
   table[[i]] <- read_csv(temp[i])
   
@@ -82,7 +83,7 @@ print(getData("Rice, BR-28, boiled* (without salt)","Vitamin E (mg)" ))
 
 #Lists of Nutrients:
 
-Macronutrients <- list("Energy (kcal) kJ", "Water (g)", "Protein (g)", "Fat (g)", "Carbohydrate available (g)",
+Macronutrients <- list("Energy (kcal)", "Water (g)", "Protein (g)", "Fat (g)", "Carbohydrate available (g)",
                        
                        "Total dietary fibre (g)")
 
@@ -476,7 +477,7 @@ View(child_results)
 
 nutrient_thresholds <- list(
   
-  "Energy (kcal) kJ" = 1300,
+  "Energy (kcal)" = 1300,
   
   "Water (g)" = 1600,
   
